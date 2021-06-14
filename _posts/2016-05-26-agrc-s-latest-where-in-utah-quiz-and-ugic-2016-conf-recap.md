@@ -18,7 +18,7 @@ Congratulations to the map gallery winners: Aaron Pulver, Ran Wei, and Clay Mann
 
 You can find the winning maps, as well as other pictures and information on twitter using the hash tag [#UGIC2016](https://twitter.com/hashtag/UGIC2016?src=hash).
 
-Visit [ugic.org](https://ugic.org/) to keep up on UGIC news and sign up for the mailing list. Next year's conference will be held in Park City, Utah.
+Visit [ugic.org](https://web.archive.org/web/20160828012519/http://ugic.org:80/) to keep up on UGIC news and sign up for the mailing list. Next year's conference will be held in Park City, Utah.
 
 ### Where in Utah 2016 Quiz?
 
