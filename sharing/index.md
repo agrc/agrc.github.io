@@ -32,6 +32,8 @@ We have data of our own to share, too! Under the direction of the Lieutenant Gov
 We hope you'll join us in our goal to make as much GIS data as possible available to the broadest audience we can by sharing your data with the SGID. Please see the [**sharing process page**]({% link sharing/process/index.md %}) for instructions to share your data with the SGID in the places listed below.
 {: .text-center .pop}
 
+![SGID Sharing Locations]({% link images/SGIDSharing.png %}){: style="margin-left:auto; margin-right:auto; display:block; border: 1px solid" loading="lazy" }
+
 #### SGID Index
 
 The most basic way to share your data is by adding links for existing, qualifying data to the [SGID Index]({% link data/sgid-index/index.html %}), which aims to be a database of all statewide GIS resources. If you are hosting GIS resources on your own server, we can link to your datasets in the SGID Index and in the category pages on our website. The category pages help people discover related datasets by grouping data together by topic.
@@ -43,7 +45,3 @@ We use Esri's Open Data offering to maintain [opendata.gis.utah.gov](https://ope
 #### Open SGID and AGRC's ArcGIS Online Organization
 
 Do you have a statewide dataset but don't have the ability to host or share it yourself? If it meets our [criteria]({% link about/policy/sgid/index.md %}#open-sgid-qualifications), we will host it in our [Open SGID]({% link sgid/open-sgid/index.md %}) database and share it as a feature service through our ArcGIS Online [organization](https://utah.maps.arcgis.com). The Open SGID is built on open source database technology (Postgres) and is available to anyone with an internet connection via a wide variety of software.
-
-#### raster.utah.gov
-
-Do we need a process for sharing through raster.utah.gov? Do we intend to host other people's raster data for discovery?
