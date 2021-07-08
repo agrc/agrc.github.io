@@ -32,7 +32,7 @@ We hope you'll join us in our goal to make as much GIS data as possible availabl
 
 #### SGID Index
 
-The most basic way to share your data is by adding links for existing, qualifying data to the [SGID Index]({% link data/sgid-index/index.html %}), which aims to be a database of all statewide GIS resources. If you are hosting GIS resources on your own server, we can link to your datasets in the Index and in the category pages on our website. The category pages help people discover related datasets by grouping data together by topic.
+The most basic way to share your data is by adding links for existing, qualifying data to the [SGID Index]({% link data/sgid-index/index.html %}), which aims to be a database of all statewide GIS resources. If you are hosting GIS resources on your own server, we can link to your datasets in the SGID Index and in the category pages on our website. The category pages help people discover related datasets by grouping data together by topic.
 
 #### Open Data
 
