@@ -12,11 +12,13 @@ categories: []
 
 The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%}) is one of the premier statewide GIS databases in the country, providing clean and consistent authoritative data across every geography in the state. People have been turning to the SGID for nearly 30 years to support their personal, commercial, and government projects. Our webpages have had over 30,000 views and 5,000 downloads, and the (what database?) gets over 15,000 table views a month. This would not be possible without the help and collaboration of cities, counties, and agencies across the state.
 
- Many of our most popular datasets—[roads]({% link sharing/core-data/index.md %}#road_centerlines), [parcels]({% link sharing/core-data/index.md %}#parcels), [address points]({% link sharing/core-data/index.md %}#address_points)—depend on the cities and counties, who send us updated data on a regular basis. We then merge them into unified, state-wide datasets available to anyone, free of charge. Many counties also participate in the [Land Information Record]({% link sharing/core-data/index.md %}#UtahLIRParcels) project, providing detailed parcel information that is critical to coherent and coordinated regional planning and analysis.
+Many of our most popular datasets—[roads]({% link sharing/core-data/index.md %}#road_centerlines), [parcels]({% link sharing/core-data/index.md %}#parcels), [address points]({% link sharing/core-data/index.md %}#address_points)—depend on the cities and counties, who send us updated data on a regular basis. We then merge them into unified, state-wide datasets available to anyone, free of charge. Most counties also participate in the [Land Information Record]({% link sharing/core-data/index.md %}#UtahLIRParcels) project, providing detailed parcel information that is critical to coherent and coordinated regional planning and analysis.
 
 Many state agencies have taken advantage of the SGID's broad audience to share important data, too. Many individuals, business, and municipalities use [natural hazard layers]({% link data/geoscience/index.html %}) from the Utah Geological Survey and [land ownership boundaries]({% link data/cadastre/land-ownership/index.html %}) from the Public Lands Policy Coordination Office for site selection and analysis.
 
-We have data of our own to share, too! Under the direction of the Lieutenant Governor's office, we map all the changes to [city boundaries]({% link data/boundaries/citycountystate/index.html %}#MunicipalBoundaries) from annexations, incorporations, and disconnections to create a statewide municipal boundary dataset. We also coordinate between various state and federal agencies to collect [Lidar]({% link data/elevation-and-terrain/index.html %}#LiDAR) data for as much of the state as possible. Finally, with the support of the state legislature and cities and counties across the state, we spearhead the acquisition of state-wide [high-resolution aerial imagery]({% link data/aerial-photography/index.html %}).
+We offer a heartfelt Thank You! on behalf of ourselves and our users to the communities, agencies, and individuals who have contributed to the SGID.
+
+We have data of our own to share, too! Under the direction of the Lieutenant Governor's office, we map all the changes to city boundaries from annexations, incorporations, and disconnections to create a statewide [municipal boundary]({% link data/boundaries/citycountystate/index.html %}#MunicipalBoundaries) dataset. We also coordinate between various state and federal agencies to collect [Lidar]({% link data/elevation-and-terrain/index.html %}#LiDAR) data for as much of the state as possible. Finally, with the support of the state legislature and cities and counties across the state, we spearhead the acquisition of state-wide [high-resolution aerial imagery]({% link data/aerial-photography/index.html %}).
 
 ## Join the party!
 
@@ -24,7 +26,7 @@ We hope you'll join us in our goal to make as much GIS data as possible availabl
 
 #### SGID Index
 
-The most basic way to share your data is by adding links for existing, qualifying data to the [SGID Index]({% link /data/sgid-index/index.html %}), which aims to be a database of all statewide GIS resources. If you are hosting GIS resources on your own server, we can link to your datasets in the Index and in the category pages on our website. The category pages help people discover related datasets by grouping data together by topic.
+The most basic way to share your data is by adding links for existing, qualifying data to the [SGID Index]({% link data/sgid-index/index.html %}), which aims to be a database of all statewide GIS resources. If you are hosting GIS resources on your own server, we can link to your datasets in the Index and in the category pages on our website. The category pages help people discover related datasets by grouping data together by topic.
 
 #### Open Data
 
