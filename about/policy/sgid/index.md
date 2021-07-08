@@ -12,8 +12,19 @@ date: 2020-01-14 17:00
 
 The policies on this page govern the way we interact with data in the [SGID]({% link sgid/index.html %}). Many of these policies also apply to external data being submitted to the SGID.
 
-#### A Brief Word on Language
-{: .text-left}
+- TOC list
+{:toc}
+
+A Brief Word on Language
+{: style="
+    margin-bottom: .3em;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 300;
+    color: #323232;
+    padding-top: .5em;
+    margin: 0 0 1em;
+    "}
 
 We use the following terms intentionally on this page:
 
@@ -21,6 +32,8 @@ We use the following terms intentionally on this page:
 - **Should**: We generally follow this rule, but we allow for exceptions at our discretion.
 - **May**: We can apply this rule, but our policies don't necessarily require or encourage us to act.
 - **Will**: We will take the prescribed action if the specified conditions occur.
+
+---
 
 ## SGID Dataset Qualifications
 
@@ -72,6 +85,8 @@ We strongly encourage dataset owners to follow these ArcGIS Online-specific guid
 - Datasets should be a core and vital GIS layer for the state (for example, land ownership category boundaries).
 - Datasets should have accurate metadata that meets our [minimum metadata standards]({% link about/policy/metadata/index.md %}).
 
+---
+
 ## Dataset Deprecation and Removal
 
 Datasets being removed from the SGID must follow these policies.
@@ -109,6 +124,8 @@ We anticipate some SGID datasets historically made available through the SDE con
 {: .text-left}
 
 Over time, we will remove datasets from the Open SGID that are no longer current but continue to have historical value (e.g., Census/ACS data or previous tax district boundaries). Their associated ArcGIS Online items will be tagged as `shelved` and placed in the public [AGRC Shelf](http://utah.maps.arcgis.com/home/group.html?id=8765687b7b0545668fff02d1b750f7a9) ArcGIS Online group for future reference. Shelved datasets are not included in Open Data.
+
+---
 
 ## Miscellaneous Policies
 
