@@ -37,7 +37,7 @@ It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}#sgi
 
 Adding data to [opendata.gis.utah.gov](https://opendata.gis.utah.gov) requires a few additional steps to navigate the ArcGIS Online sharing mechanics. This time you'll use the `Add data to Open Data` issue template. After the issue is opened, you'll need to request access to the [Open Data Staging Group](https://utah.maps.arcgis.com/home/group.html?id=3d3bd0d238f24f45b2c4b84f1015a317) in ArcGIS Online. This is a staging group that allows us to review the dataset before sharing it through Open Data.
 
-Once we've verified the dataset meets the qualifications, you can share it with the appropriate Utah SGID ArcGIS Online group. All items in these groups are automatically added to Open Data. If this is your first time sharing a data with the particular group, you'll need to request access to the group.
+Once we've verified the dataset meets [the qualifications]({% link about/policy/sgid/index.md %}#open-data-qualifications), you can share it with the appropriate Utah SGID ArcGIS Online group. All items in these groups are automatically added to Open Data. If this is your first time sharing a data with the particular group, you'll need to request access to the group.
 
 Datasets that languish in the staging group, or that are added to a Utah SGID group without approval, may be removed according to our [policies]({% link about/policy/sgid/index.md %}#reasons-for-removal).
 
@@ -49,7 +49,7 @@ It is critical to provide complete metadata so that Open Data stays clean and ea
 
 > You should only have one "Source" for all the datasets coming from your organization. Esri explains where this value comes from [in this FAQ](https://doc.arcgis.com/en/hub/get-started/frequently-asked-questions.htm#GUID-9843B713-46D2-4938-A961-EC0CD81AE410). Basically, it first searches the ArcGIS Online item's metadata for an organization name. If it doesn't find anything there, it falls back to your ArcGIS organization name.
 >
-> To customize the source, we suggest setting it in the `Resource > Citation > Contact > Organization Name` metadata field. Otherwise, leave the metadata contact fields empty so it uses up your ArcGIS Online organization name. We use this second way to show "Utah Automated Geographic Reference Center (AGRC)" as the source for all our datasets.
+> To customize the source, we suggest setting it in the `Resource > Citation > Contact > Organization Name` metadata field. Otherwise, leave the metadata contact fields empty so it uses your ArcGIS Online organization name. We use this second way to show "Utah Automated Geographic Reference Center (AGRC)" as the source for all our datasets.
 >
 > To change the organization name in the ArcGIS Online item's metadata, you need to make sure your ArcGIS Online organization has [metadata enabled](https://doc.arcgis.com/en/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_7FE1F060E03046E692BB36E5F6E3B2AE). Then you can use the Metadata editor on the ArcGIS Online item page to set either field:
 >
