@@ -48,6 +48,7 @@ These criteria apply to all datasets added to the SGID, regardless of which part
 - The entity providing the dataset must be the **authoritative** or original source (for example, a dataset of geologic hazards as identified by the Utah Geological Survey must come from the UGS, not another organization).
 - Datasets should have a reasonable **update schedule** included in the metadata.
   - We may add datasets that result from a one-time project and won't be updated in the future, but this should be clearly stated in the metadata.
+- Datasets must not contain any information considered `private`, `protected`, or `controlled` under the Utah [Government Records Access and Management Act (GRAMA)](https://archives.utah.gov/opengovernment/) or any other personally identifiable information (PII).
 
 ### SGID Index Qualifications
 {: .text-left}
