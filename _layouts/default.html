@@ -143,14 +143,11 @@
       {%- assign current = page.url | downcase | split: '/' -%}
       <nav class="site-nav">
         <ul id="menu-main-menu" class="menu">
-          <li class="menu-item{%- if current[1] == 'news' -%}{{ " active-1" | prepend: " " }}{%- endif -%}"><a
-              href="{% link news/index.html %}">News</a></li>
-          <li class="menu-item{%- if current[1] == 'data' -%}{{ " active-2" | prepend: " " }}{%- endif -%}"><a
-              href="{% link data/index.html %}">Data</a></li>
-          <li class="menu-item{%- if current[1] == 'developer' -%}{{ " active-3" | prepend: " " }}{%- endif -%}"><a
-              href="{% link developer/index.md %}">Developer</a></li>
-          <li class="menu-item{%- if current[1] == 'about' -%}{{ " active-4" | prepend: " " }}{%- endif -%}"><a
-              href="{% link about/index.md %}">About</a></li>
+          <li class="menu-item{%- if current[1] == 'news' -%}{{ "active-1" | prepend: " " }}{%- endif -%}"><a href="{% link news/index.html %}">News</a></li>
+          <li class="menu-item{%- if current[1] == 'data' -%}{{ "active-2" | prepend: " " }}{%- endif -%}"><a href="{% link data/index.html %}">Data</a></li>
+          <li class="menu-item{%- if current[1] == 'developer' -%}{{ "active-3" | prepend: " " }}{%- endif -%}"><a href="{% link developer/index.md %}">Developer</a></li>
+          <li class="menu-item{%- if current[1] == 'sharing' -%}{{ "active-4" | prepend: " " }}{%- endif -%}"><a href="{% link sharing/index.md %}">Sharing</a></li>
+          <li class="menu-item{%- if current[1] == 'about' -%}{{ "active-5" | prepend: " " }}{%- endif -%}"><a href="{% link about/index.md %}">About</a></li>
           <li class="menu-item"><a href="https://agrc-status.netlify.app/">Status</a></li>
           <li class="menu-item"><a href="{% link search/index.html %}">{% include fa_icon.html class="svg-inline--fa
               fa-w-16" search=true %}</a></li>
