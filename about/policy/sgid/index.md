@@ -37,7 +37,7 @@ We use the following terms intentionally on this page:
 
 ## SGID Dataset Qualifications
 
-Datasets added to the SGID must meet the following criteria. We may remove any existing datasets that do not meet these criteria.  All additions to the SGID should follow the [sharing process]({% link sharing/process/index.md %}) and be tracked through [Porter](https://github.com/agrc/porter).
+Datasets added to the SGID must meet the following criteria. We may remove any existing datasets that do not meet these criteria.  All additions to the SGID should follow the appropriate [sharing process]({% link sharing/index.md %}) and be tracked through [Porter](https://github.com/agrc/porter).
 
 ### General Qualifications
 {: .text-left}
@@ -59,13 +59,13 @@ These criteria apply to all datasets added to the SGID Index and not anywhere el
   - We may add references to datasets that are restricted due to safety or security concerns as a way to raise awareness that the datasets exist but are restricted.
 - Dataset links should be **stable** and maintained for the forseeable future. We do not want to be constantly updating the Index due to dead links.
 
-### SGID Open Data Hub Qualifications
+### SGID Open Data Qualifications
 {: .text-left}
 
 - Datasets must be **publicly available** without an ArcGIS login.
 - Datasets should have a **stable schema**. Clients might be using the services directly, and deleting or renaming fields can break pop-ups, definition queries, and other schema-dependent actions.
   - Adding new fields is generally ok.
-- All datasets from a single entity must be shared from the same **ArcGIS Online user** OR have a custom and consistent organization name specified in the ArcGIS Online item metadata as described in the "Source" note in the [SGID Open Data Hub sharing process]({% link sharing/process/index.md %}#open-data).
+- All datasets from a single entity must be shared from the same **ArcGIS Online user** OR have a custom and consistent organization name specified in the ArcGIS Online item metadata as described in the "Source" note in the [SGID Open Data  sharing process]({% link sharing/open-data/index.md %}).
 - Datasets must define the following metadata items in the ArcGIS Online item:
   - The **title** should include "Utah" if the rest of the title is not immediately and uniquely identifiable as a Utah dataset.
   - The **description** must include a summary of the dataset. The first line should include the date the dataset was last updated.
@@ -117,7 +117,7 @@ While not comprehensive, the following list includes the most common reasons for
 - A more authoritative source for the dataset exists elsewhere.
 - A link has been abandoned and no longer returns a proper web page.
 
-In addition, we may remove any ArcGIS Online items from the SGID Open Data Hub that aren't shared through the [sharing process]({% link sharing/process/index.md %}#open-data). We may remove items from the staging group if the submitter fails to provide adequate information according to the guidelines in the sharing process.
+In addition, we may remove any ArcGIS Online items from SGID Open Data that aren't shared through the [sharing process]({% link sharing/open-data/index.md %}). We may remove items from the staging group if the submitter fails to provide adequate information according to the guidelines in the sharing process.
 
 ### "Static" Datasets
 {: .text-left}

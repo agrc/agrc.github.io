@@ -95,7 +95,7 @@ While traditionally we think of GIS as a tool for making maps and creating and m
 #### Links related to UGRC's efforts
 
 - [Partnerships and Sharing]({% link sharing/index.md %})
-- [Data sharing Initiatives - Farm to AGOL project]({% link sharing/process/index.md %}#open-data)
+- [Data sharing Initiatives - Farm to AGOL project]({% link sharing/index.md %}#open-data)
 - [State Geographic Information Database (SGID) - data index]({% link data/index.html %})
 - [Open Data - SGID ESRI Hub site](https://opendata.gis.utah.gov/)
 - [Open SGID - PostgreSQL/PostGIS cloud SGID database]({% link _posts/2020-05-04-introducing-open-sgid.md %})
