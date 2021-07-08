@@ -36,11 +36,11 @@ The most basic way to share your data is by adding links for existing, qualifyin
 
 #### Open Data
 
-We use Esri's Open Data offering to maintain [opendata.gis.utah.gov](https://opendata.gis.utah.gov), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to use your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in our Open Data site that meet our [Open Data policies]({% link about/policy/open-data/index.md %}).
+We use Esri's Open Data offering to maintain [opendata.gis.utah.gov](https://opendata.gis.utah.gov), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to use your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in our Open Data site that meet our [Open Data policies]({% link about/policy/sgid/index.md %}#open-data-qualifications).
 
 #### Open SGID and AGRC's ArcGIS Online Organization
 
-Do you have a statewide dataset but don't have the ability to host or share it yourself? If it meets our [criteria]({% link about/policy/sgid/index.md %}), we will host it in our [Open SGID]({% link sgid/open-sgid/index.md %}) database and share it as a feature service through our ArcGIS Online [organization](https://utah.maps.arcgis.com). The Open SGID is built on open source database technology (Postgres) and is available to anyone with an internet connection via a wide variety of software.
+Do you have a statewide dataset but don't have the ability to host or share it yourself? If it meets our [criteria]({% link about/policy/sgid/index.md %}#open-sgid-qualifications), we will host it in our [Open SGID]({% link sgid/open-sgid/index.md %}) database and share it as a feature service through our ArcGIS Online [organization](https://utah.maps.arcgis.com). The Open SGID is built on open source database technology (Postgres) and is available to anyone with an internet connection via a wide variety of software.
 
 #### raster.utah.gov
 

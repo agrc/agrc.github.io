@@ -17,7 +17,7 @@ If you've still got questions after reading this, {% include contact.html subjec
 
 ## Contributing Data to an Existing Dataset
 
-If you have data you'd like to add to an existing dataset, please check the data page for the contact info of the AGRC staffer responsible. If none are listed, please reach out via our main email. We are happy to work with authoritative stewards and other qualified individuals to improve our data.
+If you have data you'd like to add to an existing dataset, please check the data page for the contact info of the AGRC staffer responsible. If none are listed, please {% include contact.html subject="SGID Data Additions — Existing Dataset" contact=site.data.contacts.agrc text='reach out to ' hide-punctuation=true %}. We are happy to work with authoritative stewards and other qualified individuals to improve our data.
 
 ## Submitting New Datasets
 
@@ -30,7 +30,7 @@ If you're new to all this, please don't hesitate to {% include contact.html subj
 ### SGID Index
 {: .text-left}
 
-It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}) data in the SGID Index. After you submit an issue in Porter using the `Add data to the SGID Index template`, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resolve any questions or problems, we'll add your dataset to the SGID Index and close the issue.
+It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}#sgid-index-qualifications) data in the SGID Index. After you submit an issue in Porter using the `Add data to the SGID Index template`, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resolve any questions or problems, we'll add your dataset to the SGID Index and close the issue.
 
 ### Open Data
 {: .text-left}
@@ -39,7 +39,7 @@ Adding data to [opendata.gis.utah.gov](https://opendata.gis.utah.gov) requires a
 
 Once we've verified the dataset meets the qualifications, you can share it with the appropriate Utah SGID ArcGIS Online group. All items in these groups are automatically added to Open Data. If this is your first time sharing a data with the particular group, you'll need to request access to the group.
 
-Datasets that languish in the staging group, or that are added to a Utah SGID group without approval, may be removed according to our [policies]({% link about/policy/open-data/index.md %}).
+Datasets that languish in the staging group, or that are added to a Utah SGID group without approval, may be removed according to our [policies]({% link about/policy/sgid/index.md %}#reasons-for-removal).
 
 It is critical to provide complete metadata so that Open Data stays clean and easy to use. We've tracked down the sources of the information shown in the Open Data list view to help you understand where the information comes from:
 
@@ -60,7 +60,7 @@ It is critical to provide complete metadata so that Open Data stays clean and ea
 ### Open SGID and ArcGIS Online
 {: .text-left}
 
-The Open SGID is the latest evolution of the traditional "SGID as a single geospatial database" model. Maintaining data in the Open SGID requires the most work, both on the front end and for long-term maintenance. We encourage you to share your data via Open Data or the SGID Index whenever possible. However, we may pull some datasets into the Open SGID that otherwise belong elsewhere in order to maintain consistency and familiarity with previous versions of the SGID geodatabase. This is done at our discretion according to our [policies]({% link about/policy/open-sgid/index.md %}).
+The Open SGID is the latest evolution of the traditional "SGID as a single geospatial database" model. Maintaining data in the Open SGID requires the most work, both on the front end and for long-term maintenance. We encourage you to share your data via Open Data or the SGID Index whenever possible. However, we may pull some datasets into the Open SGID that otherwise belong elsewhere in order to maintain consistency and familiarity with previous versions of the SGID geodatabase. This is done at our discretion according to our [policies]({% link about/policy/sgid/index.md %}#open-sgid-qualifications).
 
 After opening an issue with the `Add data to the Open SGID` template, you'll need to reach out and arrange the best way to transfer your data to us for the first review. We can download data from a cloud storage solution (Google Drive, Dropbox, etc), pull it in from an ArcGIS Online Map or Feature Service, set up an FTP share for you to upload it to, or just have you email us a zipped shapefile or GDB.
 

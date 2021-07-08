@@ -14,7 +14,7 @@ An essential part of sharing data is helping people understand what it is and wh
 
 We want to make the process more conversational. In other words, instead of looking at a long list of metadata requirements, we thought it would be easier to just talk about the data. This is our solution to metadata procrastination.
 
-We have distilled the basic elements of metadata into a few approachable questions. If you can answer these simple questions about your data, then you're officially on your way to good metadata.
+We have distilled the basic elements of metadata into a few approachable questions. If you can answer these simple questions about your data, then you're officially on your way to good metadata. These match our general metadata [requirements]({% link about/policy/metadata/index.md %}).
 
 #### Can you answer these questions about your data?
 {: .text-left}
