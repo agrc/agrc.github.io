@@ -25,6 +25,8 @@ No matter where your datasets fit best—SGID Index, Open Data, or Open SGID—t
 
 Each template includes questions about your data. We'd appreciate it if you fill all these out when you first submit your datasets. Otherwise, the issue will be put on hold until this information is provided.
 
+If you're new to all this, please don't hesitate to {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.agrc text='reach out to ' hide-punctuation=true %}. We're happy to help guide you through the process.
+
 ### SGID Index
 {: .text-left}
 
