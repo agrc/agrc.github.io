@@ -10,18 +10,36 @@ title: Sharing GIS Data
 categories: []
 ---
 
-AGRC works with partner agencies and local government toward standardization and interoperability of GIS data resources for reliable and consistent information at a statewide level. The SGID products provide a 'one-stop-shop' to make discovery, access, and publishing of GIS data efficient.
+Statewide GIS datasets play a critical role in many personal, commercial, and government projects. We work with cities, counties, and state agencies to ensure that the products available through the [SGID]({% link sgid/index.html%}) provide clean and consistent authoritative data across every geography in the state. This collaborative work has lead to the SGID becoming one of the premier GIS databases in the country. Our webpages have had over 30,000 views and 5,000 downloads, and the (what database?) gets over 15,000 table views a month.
 
-Statewide GIS map data layers fulfill a critical need for many personal and organizational business needs. We can help people and organizations connect with your data. With over 30,000 page views and 5,000 static data downloads on our website to 15,000 SGID database table views a month, we can get your data in front of the people who need it.
+This would not be possible without the help and collaboration of governments and agencies across the state. Many of our most popular datasets—roads, parcels, address points—are all conglomerated from cities and counties, who send us updated data on a regular basis. We then merge them into unified, state-wide datasets available to anyone, free of charge.
 
-## There are many ways to participate with the SGID
-{: .text-left}
+Many state agencies have taken advantage of the SGID's broad audience to share important data, too. Many individuals, business, and municipalities use natural hazard layers from the Utah Geological Survey and land ownership boundaries from the Public Lands Policy Coordination Office for site selection and analysis.
+
+We don't just take data—we like to give, too! Under direction of the Lieutenant Governor, we map all the changes to city boundaries from annexations, incorporations, and disconnections to create a statewide municipal boundary dataset. We also coordinate between various state and federal agencies to collect Lidar data for as much of the state as possible. Finally, with the support of the state legislature and cities and counties across the state, we spearhead acquiring state-wide high-resolution aerial imagery.
+
+## Join the party!
+
+We hope you'll join us in our goal to make as much GIS data as possible available to the broadest audience we can. We've put together a [standard process]({% link sharing/process/index.md %}) to make sure your datasets get where they need to go.
+
+#### SGID Index
+
+It all starts with the SGID Index, which aims to be a database of all statewide GIS resources. If you are hosting resources on your own server, we can add links to your datasets to the Index and to the category pages on our website. These pages group similar data together by topic to help people discover relevant datasets.
+
+
+#### Open Data
+
+We are leveraging Esri's Open Data offering to create [opendata.gis.utah.gov](https://opendata.gis.utah.gov), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to leverage your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in our Open Data site that meet our [Open Data policies]({% link about/policy/open-data/index.md %}).
+
+#### Open SGID and AGRC's ArcGIS Online Organization
+
+Do you have a statewide dataset but don't have the ability to host or share it yourself? If it meets our [criteria]({% link about/policy/sgid/index.md %}), we will host it in our [Open SGID]({% link sgid/open-sgid/index.md %}) database and share it as a feature service through our ArcGIS Online [organization](https://utah.maps.arcgis.com). The Open SGID is built on open source database technology (Postgres) and is available to anyone with an internet connection via a wide variety of software.
 
 #### ArcGIS Online and Open Data
 
 {% capture contact %}{% include contact.html subject=page.title contact=site.data.contacts.sgid text="Please reach out to " %}{% endcapture %}
 
-If you have an ArcGIS Online account, we can share authoritative data through our [SGID Open Data](https://opendata.gis.utah.gov) and AGRC website. We put together some [guidelines]({% link sharing/open-data/index.md %}) to help you share effectively to a larger audience. {{ contact }} to start sharing today!
+If you have an ArcGIS Online account, we can share authoritative data through our [SGID Open Data](https://opendata.gis.utah.gov) and AGRC website. We put together some  to help you share effectively to a larger audience. {{ contact }} to start sharing today!
 
 #### AGRC Website and SGID Index
 
