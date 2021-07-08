@@ -17,33 +17,35 @@ If you're not sure which part of the SGID you should share your data with, check
 ## Submitting New Datasets
 
 ### SGID Index
+{: .text-left}
 
 1. Make sure your dataset meets the qualifications for being added to the SGID Index.
 1. Open a new issue using the "Add data to the SGID Index" template.
 1. Provide all the necessary information in the issue submission.
-   1. Dataset name
-   1. Steward's name or agency
-   1. Steward's contact info
-   1. Authoritative source
-   1. Dataset category
-   1. Dataset description
-   1. Link to dataset/resource
+   - Dataset name
+   - Steward's name or agency
+   - Steward's contact info
+   - Authoritative source
+   - Dataset category
+   - Dataset description
+   - Link to dataset/resource
 1. We will review the submission against the qualifications and reach out with any questions.
 1. Once we have resolved any questions or problems, we will add the dataset to the Index and close the submission issue.
 
 ### Open Data
+{: .text-left}
 
 1. Make sure your dataset meets the qualifications for being added to opendata.gis.utah.gov.
 1. Request access to the [Open Data Staging Group](https://utah.maps.arcgis.com/home/group.html?id=3d3bd0d238f24f45b2c4b84f1015a317) in ArcGIS Online.
 1. Open a new issue using the "Add data to Open Data" template.
 1. Provide all the necessary information in the issue submission.
-   1. Dataset name
-   1. Steward's name or agency
-   1. Steward's contact info
-   1. Authoritative source
-   1. Dataset category
-   1. Dataset description
-   1. Link to dataset/resource
+   - Dataset name
+   - Steward's name or agency
+   - Steward's contact info
+   - Authoritative source
+   - Dataset category
+   - Dataset description
+   - Link to dataset/resource
 1. Share your dataset to the Open Data Staging Group
 1. We will review the submission and your dataset against the qualifications (including AGOL metadata) and reach out with any questions.
 1. Once we have resolved any questions or problems, you will be invited to join the relevant Utah SGID group in ArcGIS Online (if you have not joined already).
@@ -51,18 +53,19 @@ If you're not sure which part of the SGID you should share your data with, check
 1. We will add a corresponding entry to the SGID Index and close the submission issue.
 
 ### Open SGID and ArcGIS Online
+{: .text-left}
 
 1. Make sure your dataset meets the qualifications for being added to the Open SGID.
 1. Open a new issue using the "Add data to the Open SGID" template.
 1. Provide all the necessary information in the issue submission.
-   1. Dataset name
-   1. Steward's name or agency
-   1. Steward's contact info
-   1. Authoritative source
-   1. Dataset category
-   1. Dataset description
-   1. Link to dataset/resource
-   1. Dataset metadata
+   - Dataset name
+   - Steward's name or agency
+   - Steward's contact info
+   - Authoritative source
+   - Dataset category
+   - Dataset description
+   - Link to dataset/resource
+   - Dataset metadata
 1. Contact our office to arrange the best way to share your data with us for review (email, Google Drive, pull from ArcGIS Online, etc)
 1. We will review the submission against the qualifications and reach out with any questions.
 1. We will also run [Sweeper](https://github.com/agrc/sweeper) against your submitted data to identify and fix any geometry errors that could cause problems with the database. We will share the results with you as a courtesy.
