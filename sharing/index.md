@@ -22,6 +22,8 @@ Nearly all the data in the SGID that make it such a valuable resource come from 
 We hope you'll follow the [example]({% link sharing/examples/index.md %}) of our current contributors and consider sharing your data with a broad audience through the SGID. We have three separate "tracks" to follow based on where your data fit best: the **SGID Index**, the **SGID Open Data Hub**, or the **Open SGID**. There's a separate process for contributing to an existing SGID dataset.
 
 ![SGID Sharing Locations]({% link images/SGIDSharing.png %}){: style="margin-left:auto; margin-right:auto; display:block; border: 1px solid" loading="lazy" }
+_Note: This data flow works for 95% of datasets, but exceptions can and do exist._
+{: .text-center}
 
 ## SGID Index
 {: .text-left}

@@ -10,7 +10,7 @@ title: Submitting Data to SGID Open Data
 categories: []
 ---
 
-ArcGIS Online items are added to [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) by sharing them with one of our SGID groups in ArcGIS Online. This process gives both you and AGRC a chance to review the quality of the item before it is shared. We reserve the right to remove items from these groups if they don't go through this process.
+ArcGIS Online items are added to [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) by sharing them with one of our SGID groups in ArcGIS Online. This process gives both you and AGRC a chance to review the quality of the item before it is shared. We reserve the right to remove items from SGID Open Data if they don't go through this process.
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 
@@ -24,12 +24,12 @@ If you've still got questions after reading this, {% include contact.html subjec
 First, make sure your dataset meets the SGID qualifications:
 
 - [General qualifications]({% link about/policy/sgid/index.md %}#general-qualifications)
-- [SGID Open Data-specific qualifications]({% link about/policy/sgid/index.md %}#sgid-open-data-hub-qualifications)
+- [SGID Open Data-specific qualifications]({% link about/policy/sgid/index.md %}#sgid-open-data-qualifications)
 
 ### Step 2: ✏️ Data Preparation (You)
 {: .text-left}
 
-SGID Open Data displays a lot of information from the source ArcGIS Online item:
+SGID Open Data relies on a lot of information from the source ArcGIS Online item:
 
 ![An annotated Open Data item]({% link images/od_card_anno.png %}){: .flex .flex--center loading="lazy" }
 
@@ -37,20 +37,22 @@ As noted in the qualifications, make sure the following items are taken care of:
 
 - The ArcGIS Online item is publicly shared
 - The item has a good title, description, and tags
-- The “Allow others to export data to different formats” in the "Settings" tab is enabled (if possible)
-- The "source" value should be set using the method described below
+- The `Allow others to export data to different formats` in the `Settings` tab is enabled (if possible)
+- The `source` value should be set using the method described below
 
 ##### Setting the SGID Open Data "Source"
 
-SGID Open Data displays the "source" value on each item and also uses it to sort search results. Thus, it's important for every organization to have a single, unified "source". Esri explains where this value comes from [in this FAQ](https://doc.arcgis.com/en/hub/get-started/frequently-asked-questions.htm#GUID-9843B713-46D2-4938-A961-EC0CD81AE410). Basically, it first searches the ArcGIS Online item's metadata for an organization name. If it doesn't find anything there, it falls back to your ArcGIS organization name.
+SGID Open Data displays the `source` value on each item and also uses it to sort search results. Thus, it's important for every organization to have a single, unified `source`. Esri explains where this value comes from [in this FAQ](https://doc.arcgis.com/en/hub/get-started/frequently-asked-questions.htm#GUID-9843B713-46D2-4938-A961-EC0CD81AE410). Basically, it first searches the ArcGIS Online item's metadata for an organization name. If it doesn't find anything there, it falls back to your ArcGIS organization name.
 
-If you are sharing data from more than one ArcGIS Online user, or you want to customize the name displayed, we suggest setting it in the `Resource > Citation > Contact > Organization Name` metadata field. Otherwise, just leave the metadata contact fields empty and it will use your ArcGIS Online organization name. We use this second way to show "Utah Automated Geographic Reference Center (AGRC)" as the source for all our datasets.
+If you want to customize the name displayed, we suggest setting it in the `Resource > Citation > Contact > Organization Name` metadata field. Otherwise, just leave the metadata contact fields empty and it will use your ArcGIS Online organization name. We use this second way to show `Utah Automated Geographic Reference Center (AGRC)` as the source for all our datasets.
 
-To change the organization name in the ArcGIS Online item's metadata, you need to make sure your ArcGIS Online organization has [metadata enabled](https://doc.arcgis.com/en/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_7FE1F060E03046E692BB36E5F6E3B2AE). Then you can use the Metadata editor on the ArcGIS Online item page to set either field:
+You may need to go in and remove any values in the metadata contact fields if you just want to use your default organization name.
+
+To edit the organization name in the ArcGIS Online item's metadata, you need to make sure your ArcGIS Online organization has [metadata enabled](https://doc.arcgis.com/en/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_7FE1F060E03046E692BB36E5F6E3B2AE). Then you can use the Metadata editor on the ArcGIS Online item page to set either field:
 
 ![Organization name sources in ArcGIS Online metadata]({% link images/od_agol_md.png %}){: .flex .flex--center .outline loading="lazy" }
 
-The way you upload or overwrite your ArcGIS Online data may also overwrite the item's metadata with info from the source feature class metadata. We suggest you make any changes in both the feature class and ArcGIS Online metadata to avoid problems in the future. In the FGDC CSDGM style, the `Resource > Citation > Contact > Organization Name` field is in `Overview > Citation Contacts`. The `Resource > Contact > Organization Name` field is in `Resource > Points of Contact`.
+The way you upload or overwrite your ArcGIS Online data may also overwrite the item's metadata with info from the local source's metadata. We suggest you make any changes in both the feature class and ArcGIS Online metadata to avoid problems in the future. In the FGDC CSDGM metadata style, the `Resource > Citation > Contact > Organization Name` field is in `Overview > Citation Contacts`. The `Resource > Contact > Organization Name` field is in `Resource > Points of Contact`.
 
 ### Step 3: 💠 Sharing (You)
 {: .text-left}
@@ -60,7 +62,7 @@ Once your item is prepared, share it with the [SGID Open Data Staging Group](htt
 ### Step 4: 📂 Open an Issue (You)
 {: .text-left}
 
-Now that all the preparation work is finished, [submit an issue](https://github.com/agrc/porter/issues/new/choose) in Porter using the `Add external data links to the SGID Index` template. Fill out the `Summary` information and check the relevant boxes in the `Submitter's Process` section.
+Now that all the preparation work is finished, [submit an issue](https://github.com/agrc/porter/issues/new/choose) in Porter using the `Add ArcGIS Online services to SGID Open Data` template. Fill out the `Summary` information and check the relevant boxes in the `Submitter's Process` section.
 
 ### Step 5: 🔎 Review (You and Us)
 {: .text-left}

@@ -10,7 +10,7 @@ title: Submitting Data to the Open SGID
 categories: []
 ---
 
-To share data with the [Open SGID]({% link sgid/index.html %}#open-sgid), we will work with you to get a copy of the data and run checks and reviews to ensure they are clean before being loaded. We also need to identify when and how we'll incorporate any future updates to the data.
+If you would like to share data with the [Open SGID]({% link sgid/index.html %}#open-sgid), we will work with you to get a copy of the data. We'll then run checks and reviews on the data to ensure they are clean before being loaded, and we also need to identify when and how we'll incorporate any future updates to the data.
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 
@@ -31,12 +31,12 @@ First, make sure your dataset meets the SGID qualifications:
 
 Before submitting your data, make sure it's got a stable schema and is ready for public consumption. Make sure the metadata meets our [minimum standards]({% link about/policy/metadata/index.md %}). If you need help with metadata, check out our [basic metadata creation process]({% link sharing/metadata/index.md %}).
 
-Start thinking about the future- how often will this dataset be updated? How will you send those updates to us? Sometimes, outdated data is worse than no data at all. If a user can't find anything, they know what they don't know. But if they find outdated data without realizing it, they may not know that they are acting on bad data.
+Start thinking about the future—how often will this dataset be updated? How will you send those updates to us? Sometimes, outdated data is worse than no data at all. If a user can't find anything, they still know what they don't know. But if they find outdated data without realizing it, they may not know that they are acting on bad data.
 
 ### Step 3: 📂 Open an Issue (You)
 {: .text-left}
 
-Once you're ready to send your data our way, [submit an issue](https://github.com/agrc/porter/issues/new/choose) in Porter using the `Add external data links to the SGID Index` template. Fill out the `Summary` information and check the relevant boxes in the `Submitter's Process` section.
+Once you're ready to send your data our way, [submit an issue](https://github.com/agrc/porter/issues/new/choose) in Porter using the `Add data to Open SGID` template. Fill out the `Summary` information and check the relevant boxes in the `Submitter's Process` section.
 
 ### Step 4: 💠 Sharing (You)
 {: .text-left}
@@ -53,13 +53,15 @@ After creating the issue, contact [the AGRC team]({% link about/contact/index.ht
 
 We will review your submission against the qualifications and reach out with any questions. You can track this in the `AGRC's Process` section of the issue.
 
-We run [Sweeper](https://github.com/agrc/sweeper) on all Open SGID datasets to fix empty or duplicate geometries/rows and to double check the metadata. If you'd like, we'll share Sweeper's results with you. Fixing it on your end will help streamline any future data updates, but this isn't necessary to submit the data for the Open SGID. We'll happily add it to the Open SGID after fixing any issues on our local copy with Sweeper.
+We run [Sweeper](https://github.com/agrc/sweeper) on all Open SGID datasets to fix empty or duplicate geometries/rows and to double check the metadata. If you'd like, we'll share Sweeper's results with you. Fixing it on your end will help streamline any future data updates, but this isn't necessary to submit the data for the Open SGID. We'll still happily add it to the Open SGID after fixing any issues on our local copy with Sweeper.
 
 ### Step 6: 📤 Publish (You and Us)
 {: .text-left}
 
 Once we've worked together to resolve any questions or problems, we'll add it to the Open SGID. 
 
-If you sent the data to us as a shpefile or GDB, or as a private or temporary feature service, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. As part of this process, we will add a thumbnail that includes both the AGRC logo and the relevant SGID category icon to help people searching ArcGIS Online identify SGID data.
+If you sent the data to us as a shpefile or GDB, or as a private or temporary feature service, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. As part of this process, we will add a thumbnail that includes both the AGRC logo and the relevant SGID category icon to help people searching ArcGIS Online identify SGID data:
 
-If you maintain maintain a public feature service of the data, we won't create our own. Instead, please [share your item with SGID Open Data]({& link sharing/open-data/index.md &}).
+![Example ArcGIS Online thumbnail for SGID items]({% link images/agol_location_group.png %}){: .flex .flex--center .outline loading="lazy" }
+
+However, if you maintain maintain your own public feature service of the data, we won't create our own. Instead, please [share your item with SGID Open Data]({% link sharing/open-data/index.md %}).
