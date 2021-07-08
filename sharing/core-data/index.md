@@ -10,6 +10,9 @@ title: State - Local GIS Data Partnerships
 categories: []
 ---
 
+This page to be deleted
+{: .pop}
+
 Statewide GIS map data layers fulfill a critical need for many organizational business needs, including:
 
 | 911 & NextGen 911 (forthcoming) | Blue Stakes (811) Statewide Utility Notification | Utah Department of Transportation| State & Regional Economic Development |
