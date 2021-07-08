@@ -88,6 +88,7 @@ These criteria apply to datasets delivered to UGRC for inclusion in the [Open SG
 - The entity providing the dataset should lack the internal **capability** to publicly serve the data (such as through an existing ArcGIS Online organization).
   - We may chose not include a dataset if an entity has the capability to share it but lacks server capacity or is trying to reduce data storage costs.
 - Datasets should be a **core and vital** GIS layer for the state (for example, land ownership category boundaries).
+- Datasets should have a **stable schema**. Clients may be using the datasets directly from the database and may be relying on the presence and order of specific fields.
 - Datasets should have **accurate metadata** that meets our [minimum metadata standards]({% link about/policy/metadata/index.md %}).
 
 ---
@@ -111,7 +112,7 @@ Datasets being removed from the SGID must follow these policies.
 ### Reasons for Removal
 {: .text-left}
 
-Many items were added to the SGID before we adopted these policies and guidelines. We may evaluate them from time to time for removal. In the spirit of continuity, we do not intend to do an immediate, wholescale trimming of the SGID.
+Many items were added to the SGID before we adopted these policies and guidelines. We may evaluate them from time to time for removal. In the spirit of continuity, we do not intend to do an immediate, wholesale trimming of the SGID.
 
 While not comprehensive, the following list includes the most common reasons for removing datasets:
 
