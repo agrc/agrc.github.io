@@ -30,7 +30,7 @@ Datasets should meet all the following criteria:
 - The entity providing the dataset should be the **authoritative** or original source (for example, a county's parcels must come from the County government).
 - The entity providing the dataset does not have the internal **capability** to publicly serve the data (such as through an existing ArcGIS Online organization). An entity's data storage costs or server capacity may not be sufficient justification for adding data to the SGID.
 
-Agencies and organizations can still share datasets that don't meet the guidelines above with our [Open Data site](https://opendata.gis.utah.gov/). This is a great way to share data mainly intended for the general public with a wide audience. Please see our [Open Data sharing guidelines]({%link sharing/open-data/index.md %}) for more information.
+Agencies and organizations can still share datasets that don't meet the guidelines above with our [Open Data site](https://opendata.gis.utah.gov/). This is a great way to share data mainly intended for the general public with a wide audience. Please see our [Open Data sharing guidelines]({%link about/policy/open-data/index.md %}) for more information.
 
 We will periodically review the SGID for datasets that no longer meet these criteria. Specifically, we may consider removing datasets that see little to no usage for a prolonged period of time.
 
