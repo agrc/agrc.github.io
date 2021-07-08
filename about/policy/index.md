@@ -10,20 +10,21 @@ tags:
 categories: []
 date: 2019-12-04 10:01:27 -0700
 ---
-#### [UGRC Data License and Disclaimer]({% link about/policy/license-disclaimer/index.md %})
+
+#### [SGID Policies]({% link about/policy/sgid/index.md %})
 {: .text-left}
 
-UGRC’s data license and general data disclaimer.
-
-#### [SGID Database Policies]({% link about/policy/sgid/index.md %})
-{: .text-left}
-
-UGRC’s guidelines for creating, editing, maintaining, and removing data in the SGID database.
+AGRC’s guidelines for creating, editing, maintaining, and removing data in the SGID.
 
 #### [Open SGID Terms of Use]({% link about/policy/open-sgid/index.md %})
 {: .text-left}
 
 UGRC’s guidelines for using the Open SGID database.
+
+#### [AGRC Data License and Disclaimer]({% link about/policy/license-disclaimer/index.md %})
+{: .text-left}
+
+AGRC’s data license and general data disclaimer.
 
 #### [Licensed High-Resolution Imagery Citation]({% link discover/resources/index.md %}#citation-and-logos)
 {: .text-left}
