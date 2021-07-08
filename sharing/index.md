@@ -15,7 +15,9 @@ categories: []
 
 ## The Joys of Sharing
 
-The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%}) is one of the premier statewide GIS databases in the country, providing clean and consistent authoritative data across every geography in the state. People have been turning to the SGID for nearly 30 years to support their personal, commercial, and government projects. Our webpages have had over 30,000 views and 5,000 downloads, and the (what database?) gets over 15,000 table views a month. This would not be possible without the help and collaboration of cities, counties, and agencies across the state.
+The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%}) is one of the premier statewide GIS databases in the country, providing clean and consistent authoritative data across every geography in the state. People have been turning to the SGID for nearly 30 years to support their personal, commercial, and government projects.
+
+![GIS Data Samples]({% link images/DataRequest.png %}){: style="width:50%; margin-left:auto; margin-right:auto; display:block" loading="lazy" }
 
 Many of our most popular datasets—[roads]({% link sharing/core-data/index.md %}#road_centerlines), [parcels]({% link sharing/core-data/index.md %}#parcels), [address points]({% link sharing/core-data/index.md %}#address_points)—depend on the cities and counties, who send us updated data on a regular basis. We then merge them into unified, state-wide datasets available to anyone, free of charge. Most counties also participate in the [Land Information Record]({% link sharing/core-data/index.md %}#UtahLIRParcels) project, providing detailed parcel information that is critical to coherent and coordinated regional planning and analysis.
 
