@@ -1,6 +1,7 @@
 ---
 tags:
   - sharing
+  - open-data
 author:
   display_name: AGRC Office
   email: agrc@utah.gov
@@ -9,7 +10,7 @@ title: Submitting Data to SGID Open Data
 categories: []
 ---
 
-ArcGIS Online items are added to [SGID Open Data]({% sgid/index.html %}#sgid-open-data-site) by sharing them with one of our SGID groups in ArcGIS Online. This process gives both you and AGRC a chance to review the quality of the item before it is shared. We reserve the right to remove items from these groups if they don't go through this process.
+ArcGIS Online items are added to [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) by sharing them with one of our SGID groups in ArcGIS Online. This process gives both you and AGRC a chance to review the quality of the item before it is shared. We reserve the right to remove items from these groups if they don't go through this process.
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 

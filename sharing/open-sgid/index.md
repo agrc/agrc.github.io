@@ -1,6 +1,7 @@
 ---
 tags:
   - sharing
+  - open-sgid
 author:
   display_name: AGRC Office
   email: agrc@utah.gov
@@ -9,11 +10,7 @@ title: Submitting Data to the Open SGID
 categories: []
 ---
 
-The [Open SGID]({% link sgid/index.html %}#open-sgid) is a currated, publicly-accesible database of statewide GIS layers—the latest evolution of the traditional "SGID as a single geospatial database" model. Maintaining data in the Open SGID requires the most work, both on the front end and for long-term maintenance. We encourage you to share your data via SGID Open Data or the SGID Index whenever possible.
-
-In order to maintain consistency and familiarity with previous versions of the SGID geodatabase, we may add some datasets to Open SGID that are otherwise better suited for [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) or the [SGID Index]({% link sgid/index.html %}#sgid-index). This is done at our discretion according to our [policies]({% link about/policy/sgid/index.md %}#open-sgid-qualifications).
-
-Before adding new layers, we need to run data checks and reviews to ensure the data are clean before being loaded. We also need to identify when and how we'll incorporate any future updates to the data.
+To share data with the [Open SGID]({% link sgid/index.html %}#open-sgid), we will work with you to get a copy of the data and run checks and reviews to ensure they are clean before being loaded. We also need to identify when and how we'll incorporate any future updates to the data.
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 

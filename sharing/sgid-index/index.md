@@ -1,6 +1,7 @@
 ---
 tags:
   - sharing
+  - sgid-index
 author:
   display_name: AGRC Office
   email: agrc@utah.gov
@@ -9,7 +10,7 @@ title: Submitting Data to the SGID Index
 categories: []
 ---
 
-It's quite simple to ~[deal with a banana fiend](https://youtu.be/F4PZXuk3TsM?t=130)~ share links to your data with the [SGID Index]({% link sgid/index.html %}#sgid-index).
+It's quite simple to ~~[deal with a banana fiend](https://youtu.be/F4PZXuk3TsM?t=130)~~ share links to your data with the [SGID Index]({% link sgid/index.html %}#sgid-index).
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 
