@@ -21,7 +21,7 @@ This statewide collection would not be possible without the cooperation of count
 ## Roads - Collaboration
 {: .text-left}
 
-Free, up-to-date, comprehensive [road data]({% link data/transportation/roads-system/index.html %}#RoadCenterlines) is a luxury we are fortunate to have. Thanks to the contributions of cities, counties, and UDOT, cartographers and analysts don't need to download road data from five different places with five different schemas, nor do they need to pay a commercial company to access data their tax dollars have already paid for. It's all here in one dataset.
+Free, up-to-date, and comprehensive [road data]({% link data/transportation/roads-system/index.html %}#RoadCenterlines) is a luxury we are fortunate to have. Thanks to the contributions of cities, counties, and UDOT, cartographers and analysts don't need to download road data from five different places with five different schemas, nor do they need to pay a commercial company to access data their tax dollars have already paid for. It's all here in one dataset.
 
 ## Land Ownership - Sharing
 {: .text-left}
@@ -31,9 +31,9 @@ Sometimes a project needs a 50,000-foot view of land ownership, especially in Ut
 ## Natural Hazards - Sharing
 {: .text-left}
 
-A key part of the development process is identifying any natural hazards that may impact a project. In the past, we have hosted the Utah Geological Survey's [natural hazard layers]({% link data/geoscience/index.html %}) in the precursor to the Open SGID database. However, making a copy of their data introduced the burden of keeping the SGID data up-to-date with their internal data as they constantly work to map hazards in new areas.
+A key part of the land development process is identifying any natural hazards that may impact a project. In the past, we have hosted the Utah Geological Survey's [natural hazard layers]({% link data/geoscience/index.html %}) in the precursor to the Open SGID database. However, making a copy of their data introduced the burden of keeping the SGID data up-to-date with their internal data as they constantly work to map hazards in new areas.
 
-We've worked with UGS to remove the data from the Open SGID and instead share their ArcGIS Online feature services with [SGID Open Data](https://opendata.gis.utah.gov). This ensures there is only one copy of the data and all updates are immediately reflected in the public dataset.
+We've worked with UGS to remove the data from the Open SGID and instead share their ArcGIS Online feature services with [SGID Open Data](https://opendata.gis.utah.gov). This sharing method ensures there is only one copy of the data and you see the edits and updates as soon as UGS makes them.
 
 ## Historical Aerial Imagery - Sharing
 {: .text-left}
