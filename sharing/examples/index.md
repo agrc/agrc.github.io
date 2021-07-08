@@ -2,8 +2,8 @@
 tags:
   - sharing
 author:
-  display_name: AGRC Office
-  email: agrc@utah.gov
+  display_name: UGRC Office
+  email: ugrc@utah.gov
 date: 2020-02-03 17:00:00
 title: SGID Sharing Highlights
 categories: []
@@ -40,7 +40,7 @@ We've worked with UGS to remove the data from the Open SGID and instead share th
 
 The Utah Geological Survey has also spearheaded the monumental task of scanning and roughly locating all the historic imagery they could find. These scans give a glimpse into the past and are useful to track changes in land use over time. We help make them discoverable by sharing the link to their interactive map on our [aerial photography data page]({% link data/aerial-photography/index.html%}#UGS).
 
-## AGRC-Created Collaborative Datasets
+## UGRC-Created Collaborative Datasets
 {: .text-left}
 
-Some collaboration takes the form of support for AGRC-created datasets. Under the direction of the Lieutenant Governor's office, we map all the changes to city boundaries from annexations, incorporations, and disconnections to create a statewide [municipal boundary]({% link data/boundaries/citycountystate/index.html %}#MunicipalBoundaries) dataset. We also coordinate among various state and federal agencies to collect [Lidar]({% link data/elevation-and-terrain/index.html %}#LiDAR) data for as much of the state as possible. Finally, with the support of the state legislature and cities and counties across the state, we spearhead the acquisition of state-wide, [high-resolution aerial imagery]({% link data/aerial-photography/index.html %}).
+Some collaboration takes the form of support for UGRC-created datasets. Under the direction of the Lieutenant Governor's office, we map all the changes to city boundaries from annexations, incorporations, and disconnections to create a statewide [municipal boundary]({% link data/boundaries/citycountystate/index.html %}#MunicipalBoundaries) dataset. We also coordinate among various state and federal agencies to collect [Lidar]({% link data/elevation-and-terrain/index.html %}#LiDAR) data for as much of the state as possible. Finally, with the support of the state legislature and cities and counties across the state, we spearhead the acquisition of state-wide, [high-resolution aerial imagery]({% link data/aerial-photography/index.html %}).

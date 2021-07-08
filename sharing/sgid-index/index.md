@@ -3,8 +3,8 @@ tags:
   - sharing
   - sgid-index
 author:
-  display_name: AGRC Office
-  email: agrc@utah.gov
+  display_name: UGRC Office
+  email: ugrc@utah.gov
 date: 2020-01-13 17:00:00
 title: Submitting Data to the SGID Index
 categories: []
@@ -16,7 +16,7 @@ We use [issues](https://guides.github.com/features/issues/) in our [Porter](http
 
 If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue.
 
-If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [AGRC team]({% link about/contact/index.html %}).
+If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [UGRC team]({% link about/contact/index.html %}).
 
 ### Step 1: 📋 Qualifications (You)
 {: .text-left}
@@ -34,7 +34,7 @@ Next, [submit an issue](https://github.com/agrc/porter/issues/new/choose) in Por
 ### Step 3: 🔎 Review (You and Us)
 {: .text-left}
 
-We will review your submission against the qualifications and reach out with any questions. You can track this in the `AGRC's Process` section of the issue.
+We will review your submission against the qualifications and reach out with any questions. You can track this in the `UGRC's Process` section of the issue.
 
 ### Step 4: 📤 Publish (Us)
 {: .text-left}

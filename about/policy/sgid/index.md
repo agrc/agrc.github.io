@@ -102,7 +102,7 @@ Datasets being removed from the SGID must follow these policies.
 - We reserve the right to remove any dataset at any time.
 - Removals should be tracked in [Porter](https://github.com/agrc/porter).
 - The steward should give users a heads up at least two weeks prior to removal whenever possible.
-  - AGRC should post removal and deprecation notices on the [@MapUtah](https://twitter.com/maputah) Twitter account.
+  - UGRC should post removal and deprecation notices on the [@MapUtah](https://twitter.com/maputah) Twitter account.
 - Stewards of ArcGIS Online services should perform a brownout by marking the data as `Deprecated` in the item's settings and including "deprecated" in the item's title.
 - When possible, UGRC will change the sharing level of items being removed from our own ArcGIS Online organization from public to private two weeks before deleting the items completely to allow quick restoration if end users need time to find an alternative.
   - End users should not rely on this two-week blackout.
@@ -161,7 +161,7 @@ Any coded-value domain codes must match their values (for example, `"Interstate 
 ### Editing Policies
 {: .text-left}
 
-No edits or updates should be made to the internal geodatabase from 7:00PM to 10:00AM MST to allow automated scripts to push dataset updates to ArcGIS Online and the Open SGID. AGRC should ensure that data are production-ready before the editing window ends.
+No edits or updates should be made to the internal geodatabase from 7:00PM to 10:00AM MST to allow automated scripts to push dataset updates to ArcGIS Online and the Open SGID. UGRC should ensure that data are production-ready before the editing window ends.
 
 All bulk data updates being pushed into the SGID should be run through [Sweeper](https://github.com/agrc/sweeper) or another automated process to review and fix common data and metadata problems.
 

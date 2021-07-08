@@ -3,20 +3,20 @@ tags:
   - sharing
   - open-data
 author:
-  display_name: AGRC Office
-  email: agrc@utah.gov
+  display_name: UGRC Office
+  email: ugrc@utah.gov
 date: 2020-01-13 17:00:00
 title: Submitting Data to SGID Open Data
 categories: []
 ---
 
-ArcGIS Online items are added to [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) by sharing them with one of our SGID groups in ArcGIS Online. This process gives both you and AGRC a chance to review the quality of the item before it is shared. We reserve the right to remove items from SGID Open Data if they don't go through this process.
+ArcGIS Online items are added to [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) by sharing them with one of our SGID groups in ArcGIS Online. This process gives both you and UGRC a chance to review the quality of the item before it is shared. We reserve the right to remove items from SGID Open Data if they don't go through this process.
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 
 If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue.
 
-If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [AGRC team]({% link about/contact/index.html %}).
+If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [UGRC team]({% link about/contact/index.html %}).
 
 ### Step 1: 📋 Qualifications (You)
 {: .text-left}
@@ -67,7 +67,7 @@ Now that all the preparation work is finished, [submit an issue](https://github.
 ### Step 5: 🔎 Review (You and Us)
 {: .text-left}
 
-We will review your submission against the qualifications and reach out with any questions. You can track this in the `AGRC's Process` section of the issue. Once everything looks good, we'll send you an invite to the appropriate SGID group if you're not already a member.
+We will review your submission against the qualifications and reach out with any questions. You can track this in the `UGRC's Process` section of the issue. Once everything looks good, we'll send you an invite to the appropriate SGID group if you're not already a member.
 
 ### Step 6: 📤 Publish (You)
 {: .text-left}

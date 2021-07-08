@@ -43,14 +43,14 @@ The description is a more in-depth version of the summary and should stand on it
 
 The first line of the description should be be the date the dataset was last updated so people have a clear and consistent place to see how fresh or stale it is.
 
-For datasets hosted by AGRC, this section should also contain a link to the corresponding [gis.utah.gov data page]({% link data/index.html %}).
+For datasets hosted by UGRC, this section should also contain a link to the corresponding [gis.utah.gov data page]({% link data/index.html %}).
 
 #### Credits (as in the source of the data)
 {: .text-left}
 
 The credits should clearly state who created the dataset and how you can get in contact with them.
 
-Example: `AGRC, UDOT`
+Example: `UGRC, UDOT`
 
 #### Use Limitations/Terms of Use
 {: .text-left}

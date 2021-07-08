@@ -3,8 +3,8 @@ tags:
   - sharing
   - open-sgid
 author:
-  display_name: AGRC Office
-  email: agrc@utah.gov
+  display_name: UGRC Office
+  email: ugrc@utah.gov
 date: 2020-01-13 17:00:00
 title: Submitting Data to the Open SGID
 categories: []
@@ -16,7 +16,7 @@ We use [issues](https://guides.github.com/features/issues/) in our [Porter](http
 
 If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue.
 
-If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [AGRC team]({% link about/contact/index.html %}).
+If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [UGRC team]({% link about/contact/index.html %}).
 
 ### Step 1: 📋 Qualifications (You)
 {: .text-left}
@@ -41,7 +41,7 @@ Once you're ready to send your data our way, [submit an issue](https://github.co
 ### Step 4: 💠 Sharing (You)
 {: .text-left}
 
-After creating the issue, contact [the AGRC team]({% link about/contact/index.html %}) to work out the best way to share your data with us. We can get the data from you in many different ways:
+After creating the issue, contact [the UGRC team]({% link about/contact/index.html %}) to work out the best way to share your data with us. We can get the data from you in many different ways:
 
 - We can download it from your choice of cloud storage solutions (Google Drive, Dropbox, etc)
 - We can pull it in from an ArcGIS Online/Enterprise Map or Feature Service (our preferred option for frequently-changing data)
@@ -51,16 +51,16 @@ After creating the issue, contact [the AGRC team]({% link about/contact/index.ht
 ### Step 5: 🔎 Review (You and Us)
 {: .text-left}
 
-We will review your submission against the qualifications and reach out with any questions. You can track this in the `AGRC's Process` section of the issue.
+We will review your submission against the qualifications and reach out with any questions. You can track this in the `UGRC's Process` section of the issue.
 
 We run [Sweeper](https://github.com/agrc/sweeper) on all Open SGID datasets to fix empty or duplicate geometries/rows and to double check the metadata. If you'd like, we'll share Sweeper's results with you. Fixing it on your end will help streamline any future data updates, but this isn't necessary to submit the data for the Open SGID. We'll still happily add it to the Open SGID after fixing any issues on our local copy with Sweeper.
 
 ### Step 6: 📤 Publish (You and Us)
 {: .text-left}
 
-Once we've worked together to resolve any questions or problems, we'll add it to the Open SGID. 
+Once we've worked together to resolve any questions or problems, we'll add it to the Open SGID.
 
-If you sent the data to us as a shpefile or GDB, or as a private or temporary feature service, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. As part of this process, we will add a thumbnail that includes both the AGRC logo and the relevant SGID category icon to help people searching ArcGIS Online identify SGID data:
+If you sent the data to us as a shpefile or GDB, or as a private or temporary feature service, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. As part of this process, we will add a thumbnail that includes both the UGRC logo and the relevant SGID category icon to help people searching ArcGIS Online identify SGID data:
 
 ![Example ArcGIS Online thumbnail for SGID items]({% link images/agol_location_group.png %}){: .flex .flex--center .outline loading="lazy" }
 

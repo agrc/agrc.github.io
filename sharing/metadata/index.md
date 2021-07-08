@@ -1,7 +1,7 @@
 ---
 author:
-  display_name: AGRC Office
-  email: agrc@utah.gov
+  display_name: UGRC Office
+  email: ugrc@utah.gov
 tags:
   - metadata
   - sgid
@@ -52,6 +52,6 @@ We have distilled the basic elements of metadata into a few approachable questio
 
 You can plug your answers to these questions straight into the basic metadata elements. It's that simple - answer a few questions, transfer your responses, and voilà, you officially have informative, standardized metadata.
 
-_Note: If you contribute data to Utah's State Geographic Information Database (SGID), we encourage you to use our [metadata form](https://docs.google.com/forms/d/e/1FAIpQLSeJSV935GTN3djtErkBdeXkumuZvd10z2805It1-eFn0Mlo9w/viewform?usp=sf_link). It's a great way to update your metadata and make it more discoverable. The form covers all the questions above -and best of all- after you submit your responses, your portion of the process is done! AGRC, in collaboration with the DTS editor, will handle the remaining details._
+_Note: If you contribute data to Utah's State Geographic Information Database (SGID), we encourage you to use our [metadata form](https://docs.google.com/forms/d/e/1FAIpQLSeJSV935GTN3djtErkBdeXkumuZvd10z2805It1-eFn0Mlo9w/viewform?usp=sf_link). It's a great way to update your metadata and make it more discoverable. The form covers all the questions above -and best of all- after you submit your responses, your portion of the process is done! UGRC, in collaboration with the DTS editor, will handle the remaining details._
 
 These questions are designed to work with the ESRI [Item Description](https://desktop.arcgis.com/en/arcmap/latest/manage-data/metadata/metadata-standards-and-styles.htm#ESRI_SECTION1_29222DC149544E89A4147541A4ACAF86) metadata style. This style strikes a pragmatic balance between being comprehensive and being easy to use.
