@@ -41,6 +41,22 @@ Once we've verified the dataset meets the qualifications, you can share it with 
 
 Datasets that languish in the staging group, or that are added to a Utah SGID group without approval, may be removed according to our [policies]({% link about/policy/open-data/index.md %}).
 
+It is critical to provide complete metadata so that Open Data stays clean and easy to use. We've tracked down the sources of the information shown in the Open Data list view to help you understand where the information comes from:
+
+![An annotated Open Data item]({% link images/od_card_anno.png %}){: .flex .flex--center loading="lazy" }
+
+##### "Source"
+
+> You should only have one "Source" for all the datasets coming from your organization. Esri explains where this value comes from [in this FAQ](https://doc.arcgis.com/en/hub/get-started/frequently-asked-questions.htm#GUID-9843B713-46D2-4938-A961-EC0CD81AE410). Basically, it first searches the ArcGIS Online item's metadata for an organization name. If it doesn't find anything there, it falls back to your ArcGIS organization name.
+>
+> To customize the source, we suggest setting it in the `Resource > Citation > Contact > Organization Name` metadata field. Otherwise, leave the metadata contact fields empty so it uses up your ArcGIS Online organization name. We use this second way to show "Utah Automated Geographic Reference Center (AGRC)" as the source for all our datasets.
+>
+> To change the organization name in the ArcGIS Online item's metadata, you need to make sure your ArcGIS Online organization has [metadata enabled](https://doc.arcgis.com/en/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_7FE1F060E03046E692BB36E5F6E3B2AE). Then you can use the Metadata editor on the ArcGIS Online item page to set either field:
+>
+>![Organization name sources in ArcGIS Online metadata]({% link images/od_agol_md.png %}){: .flex .flex--center .outline loading="lazy" }
+>
+> Depending on how you upload or overwrite your ArcGIS Online data, it may also overwrite the item's metadata with info from the source feature class metadata. We suggest you make any changes in both the feature class and ArcGIS Online metadata to avoid problems in the future. In the FGDC CSDGM style, the `Resource > Citation > Contact > Organization Name` field is in `Overview > Citation Contacts`. The `Resource > Contact > Organization Name` field is in `Resource > Points of Contact`.
+
 ### Open SGID and ArcGIS Online
 {: .text-left}
 
