@@ -19,7 +19,7 @@ The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%
 
 Nearly all the data in the SGID that make it such a valuable resource come from cities, counties, and other State agencies. We offer a heartfelt **Thank You!** on behalf of ourselves and all our users to everyone who has contributed to the SGID.
 
-We hope you'll follow the example of our [current contributors]({% link sharing/examples/index.md %}) and consider sharing your data with a broad audience through the SGID. We have three separate "tracks" to follow based on where your data fit best: the SGID Index, Open Data, or the Open SGID. There's also a fourth track for contributing to an existing SGID dataset.
+We hope you'll follow the example of our [current contributors]({% link sharing/examples/index.md %}) and consider sharing your data with a broad audience through the SGID. We have three separate "tracks" to follow based on where your data fit best: the **SGID Index**, the **SGID Open Data Hub**, or the **Open SGID**. There's also a fourth track for contributing to an existing SGID dataset.
 
 ![SGID Sharing Locations]({% link images/SGIDSharing.png %}){: style="margin-left:auto; margin-right:auto; display:block; border: 1px solid" loading="lazy" }
 
@@ -30,16 +30,16 @@ The simplest way to share your data is by adding links for existing, qualifying 
 
 Click here to start sharing your hosted data with the SGID Index.
 
-## Open Data
+## SGID Open Data Hub
 {: .text-left}
 
-We use Esri's Open Data offering to maintain [opendata.gis.utah.gov](https://opendata.gis.utah.gov), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to use your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in our Open Data site that meet our [Open Data policies]({% link about/policy/sgid/index.md %}#open-data-qualifications).
+We use Esri's open data offering to maintain [opendata.gis.utah.gov](https://opendata.gis.utah.gov), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to use your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in the SGID Open Data Hub that meet our [qualifications]({% link about/policy/sgid/index.md %}#open-data-qualifications).
 
-Click here to start sharing your AGOL items with Open Data.
-## Open SGID and AGRC's ArcGIS Online Organization
+Click here to start sharing your AGOL items with the SGID Open Data Hub.
+## Open SGID
 {: .text-left}
 
-Do you have a statewide dataset but don't have the ability to host or share it yourself? If it meets our [criteria]({% link about/policy/sgid/index.md %}#open-sgid-qualifications), we will host it in our [Open SGID]({% link sgid/open-sgid/index.md %}) database and share it through [opendata.gis.utah.gov](https://opendata.gis.utah.gov) (by first uploading it as a feature service in our ArcGIS Online [organization](https://utah.maps.arcgis.com)). The Open SGID is built on open source database technology (Postgres) and is available to anyone with an internet connection via a wide variety of software.
+Do you have a statewide dataset but don't have the ability to host or share it yourself? If it meets our [qualifications]({% link about/policy/sgid/index.md %}#open-sgid-qualifications), we will host it in our [Open SGID]({% link sgid/open-sgid/index.md %}) database and share it through [opendata.gis.utah.gov](https://opendata.gis.utah.gov) (by first uploading it as a feature service in our ArcGIS Online [organization](https://utah.maps.arcgis.com)). The Open SGID is built on open source database technology (Postgres) and is available to anyone with an internet connection via a wide variety of software.
 
 Click here to start sharing your data in the Open SGID
 

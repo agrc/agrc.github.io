@@ -59,20 +59,20 @@ These criteria apply to all datasets added to the SGID Index and not anywhere el
   - We may add references to datasets that are restricted due to safety or security concerns as a way to raise awareness that the datasets exist but are restricted.
 - Dataset links should be **stable** and maintained for the forseeable future. We do not want to be constantly updating the Index due to dead links.
 
-### Open Data Qualifications
+### SGID Open Data Hub Qualifications
 {: .text-left}
 
 - Datasets must be **publicly available** without an ArcGIS login.
 - Datasets should have a **stable schema**. Clients might be using the services directly, and deleting or renaming fields can break pop-ups, definition queries, and other schema-dependent actions.
   - Adding new fields is generally ok.
-- All datasets from a single entity must be shared from the same **ArcGIS Online user** OR have a custom and consistent organization name specified in the ArcGIS Online item metadata as described in the "Source" note in the [Open Data sharing process]({% link sharing/process/index.md %}#open-data).
+- All datasets from a single entity must be shared from the same **ArcGIS Online user** OR have a custom and consistent organization name specified in the ArcGIS Online item metadata as described in the "Source" note in the [SGID Open Data Hub sharing process]({% link sharing/process/index.md %}#open-data).
 - Datasets must define the following metadata items in the ArcGIS Online item:
   - The **title** should include "Utah" if the rest of the title is not immediately and uniquely identifiable as a Utah dataset.
   - The **description** must include a summary of the dataset. The first line should include the date the dataset was last updated.
   - The **tags** should include the source entity's name and any other relevant words not found in the title (please refer to Esri's [post about using tags effectively](https://www.esri.com/arcgis-blog/products/arcgis-online/data-management/using-tags-effectively/) for more information).
 - Datasets should enable the "Allow others to export data to different formats" option in their ArcGIS Online settings to enable end users to **download** the dataset as a file geodatabase.
 
-We strongly encourage dataset owners to follow these ArcGIS Online-specific guidelines, even though Open Data does not use them directly:
+We strongly encourage dataset owners to follow these ArcGIS Online-specific guidelines, even though the SGID Open Data Hub does not use them directly:
 
 - The items' **thumbnails** appear when a user searches for the dataset on ArcGIS Online or in ArcGIS Pro. A [branded thumbnail](https://www.esri.com/arcgis-blog/products/arcgis-online/data-management/put-your-best-thumbnail-forward/) tells users that this is an authoritative dataset. For example, we use thumbnails that include the category logo for all the SGID data we share in ArcGIS Online.
 - Mark the item as **authoritative** in ArcGIS Online. This helps users decide which dataset to use when their search in ArcGIS Online returns several similar results.
@@ -117,7 +117,7 @@ While not comprehensive, the following list includes the most common reasons for
 - A more authoritative source for the dataset exists elsewhere.
 - A link has been abandoned and no longer returns a proper web page.
 
-In addition, we may remove any ArcGIS Online items from Open Data that aren't shared through the [sharing process]({% link sharing/process/index.md %}#open-data). We may remove items from the staging group if the submitter fails to provide adequate information according to the guidelines in the sharing process.
+In addition, we may remove any ArcGIS Online items from the SGID Open Data Hub that aren't shared through the [sharing process]({% link sharing/process/index.md %}#open-data). We may remove items from the staging group if the submitter fails to provide adequate information according to the guidelines in the sharing process.
 
 ### "Static" Datasets
 {: .text-left}
@@ -126,7 +126,7 @@ We anticipate some SGID datasets historically made available through the SDE con
 ### "Shelved" Datasets
 {: .text-left}
 
-Over time, we will remove datasets from the Open SGID that are no longer current but continue to have historical value (e.g., Census/ACS data or previous tax district boundaries). Their associated ArcGIS Online items will be tagged as `shelved` and placed in the public [AGRC Shelf](http://utah.maps.arcgis.com/home/group.html?id=8765687b7b0545668fff02d1b750f7a9) ArcGIS Online group for future reference. Shelved datasets are not included in Open Data.
+Over time, we will remove datasets from the Open SGID that are no longer current but continue to have historical value (e.g., Census/ACS data or previous tax district boundaries). Their associated ArcGIS Online items will be tagged as `shelved` and placed in the public [AGRC Shelf](http://utah.maps.arcgis.com/home/group.html?id=8765687b7b0545668fff02d1b750f7a9) ArcGIS Online group for future reference. Shelved datasets are not included in the SGID Open Data Hub.
 
 ---
 
