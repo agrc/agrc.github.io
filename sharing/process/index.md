@@ -1,5 +1,4 @@
 ---
-layout: page_nocrumb
 tags:
   - sharing
 author:
@@ -10,70 +9,43 @@ title: Submitting Data to the SGID
 categories: []
 ---
 
-Thank you for wanting to share your data with the SGID! We've put together a few processes to make sure your datasets are added to the right place. All of them involve opening an [issue](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub. This allows anyone to track where a dataset is at in the process and keeps an open and transparent record of everything that happened.
+Thank you for wanting to share your data with the SGID! We've put together a few processes to make sure your datasets are added to the right place. We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track where a dataset is at in the process and keep an open and transparent record of everything that happened.
 
 If you're not sure which part of the SGID you should share your data with, check out our sharing [introduction]({% link sharing/index.md %}) for an overview.
 
+## Contributing Data to an Existing Dataset
+
+If you have data you'd like to add to an existing dataset, please check the data page for the contact info of the AGRC staffer responsible. If none are listed, please reach out via our main email. We are happy to work with authoritative stewards and other qualified individuals to improve our data
+
 ## Submitting New Datasets
+
+No matter where your datasets fit best—SGID Index, Open Data, or Open SGID—the process begins with the same first two steps: first, making sure your datasets meet the relevant [qualifications]({% link about/policy/sgid/index.md %}) and then opening an issue in [Porter](https://github.com/agrc/porter/issues) using the relevant template.
+
+Each template includes questions about your data. We'd appreciate it if you fill all these out when you first submit your datasets. Otherwise, the issue will be put on hold until this information is provided.
 
 ### SGID Index
 {: .text-left}
 
-1. Make sure your dataset meets the qualifications for being added to the SGID Index.
-1. Open a new issue using the "Add data to the SGID Index" template.
-1. Provide all the necessary information in the issue submission.
-   - Dataset name
-   - Steward's name or agency
-   - Steward's contact info
-   - Authoritative source
-   - Dataset category
-   - Dataset description
-   - Link to dataset/resource
-1. We will review the submission against the qualifications and reach out with any questions.
-1. Once we have resolved any questions or problems, we will add the dataset to the Index and close the submission issue.
+It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}) data in the SGID Index. After you submit an issue in Porter using the "Add data to the SGID Index template, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resovle any questions or problems, we'll add your dataset to the Index and close the issue.
 
 ### Open Data
 {: .text-left}
 
-1. Make sure your dataset meets the qualifications for being added to opendata.gis.utah.gov.
-1. Request access to the [Open Data Staging Group](https://utah.maps.arcgis.com/home/group.html?id=3d3bd0d238f24f45b2c4b84f1015a317) in ArcGIS Online.
-1. Open a new issue using the "Add data to Open Data" template.
-1. Provide all the necessary information in the issue submission.
-   - Dataset name
-   - Steward's name or agency
-   - Steward's contact info
-   - Authoritative source
-   - Dataset category
-   - Dataset description
-   - Link to dataset/resource
-1. Share your dataset to the Open Data Staging Group
-1. We will review the submission and your dataset against the qualifications (including AGOL metadata) and reach out with any questions.
-1. Once we have resolved any questions or problems, you will be invited to join the relevant Utah SGID group in ArcGIS Online (if you have not joined already).
-1. You may then share your data with the relevant Utah SGID group.
-1. We will add a corresponding entry to the SGID Index and close the submission issue.
+Adding data to [opendata.gis.utah.gov](https://opendata.gis.utah.gov) requires a few additional steps to navigate the ArcGIS Online sharing mechanics. This time you'll use the "Add data to Open Data" issue template. After the issue is opened, you'll need to request access to the [Open Data Staging Group](https://utah.maps.arcgis.com/home/group.html?id=3d3bd0d238f24f45b2c4b84f1015a317) in ArcGIS Online. This is a staging group that allows us to review the dataset before sharing it through Open Data.
+
+Once we've verified the dataset meets the qualifications, you can share it with the appropriate Utah SGID ArcGIS Online group. Everything in these groups are automatically added to Open Data. If this is your first time sharing a data with the particular group, you'll need to request access to the group.
+
+Datasets that languish in the staging group, or that are added to a Utah SGID group without approval, may be removed according to our [policies]({% link about/policy/open-data/index.md %}).
 
 ### Open SGID and ArcGIS Online
 {: .text-left}
 
-1. Make sure your dataset meets the qualifications for being added to the Open SGID.
-1. Open a new issue using the "Add data to the Open SGID" template.
-1. Provide all the necessary information in the issue submission.
-   - Dataset name
-   - Steward's name or agency
-   - Steward's contact info
-   - Authoritative source
-   - Dataset category
-   - Dataset description
-   - Link to dataset/resource
-   - Dataset metadata
-1. Contact our office to arrange the best way to share your data with us for review (email, Google Drive, pull from ArcGIS Online, etc)
-1. We will review the submission against the qualifications and reach out with any questions.
-1. We will also run [Sweeper](https://github.com/agrc/sweeper) against your submitted data to identify and fix any geometry errors that could cause problems with the database. We will share the results with you as a courtesy.
-1. Once we have resolved any questions or problems, we will add the dataset to our internal database.
-1. Within 24 to 48 hours, it will be automatically added to the Open SGID and our ArcGIS Online organization (as a hosted feature service). The ArcGIS Online item will be given a thumbnail matching its SGID category and shared with Open Data as well.
-1. Any data update process identified in the submission issue will be set up.
-1. Once the dataset is live in Open SGID and ArcGIS Online, we will close the submission issue.
+The Open SGID is the latest evolution of the traditional "SGID as a single geospatial database" model. Maintaining data in the Open SGID requires the most work, both on the front end and for long-term maintenance. We encourage you to share your data via Open Data or the SGID Index whenever possible. However, we may pull some datasets into the Open SGID that otherwise belong elsewhere in order to maintain consistency and familiarity with previous versions of the SGID geodatabase. This is done at our discretion according to our [policies]({% link about/policy/open-sgid/index.md %}).
 
-## Contributing data to an existing dataset
+After opening an issue with the "Add data to the Open SGID" template, you'll need to reach out to us to arrange the best way to transfer your data to us. We can download data from a cloud storage solution (Google Drive, Dropbox, etc), pull it in from an ArcGIS Online Map or Feature Service, set up an FTP share for you to upload it to, or just have you email us a zipped shapefile or GDB.
 
-If you have data you'd like to add to an existing dataset, please check the data page for the contact info of the AGRC staffer responsible. If none are listed, please reach out via our main email.
+Once we get your data, we will run [Sweeper](https://github.com/agrc/sweeper) on it to identify and fix any geometry errors that could cause problems with the database (Postgres complains about some things that Esri lets slide). We'll share the results of this with you as a courtesy; while you're under no obligation to change your source data, doing so will help streamline any future data updates.
+
+Nothing is worse than outdated data. If you can't find any data, you know that you may not know what's going on. But, if you find outdated data, you may not know that you are acting on bad data. Consequently, it's important to send your data updates to us once it's accepted into the Open SGID. As part of the submission process, we'll work with you to identify the best way to feed updates into Open SGID.
+
+As part of the Open SGID process, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. We will add an AGRC-branded thumbnail specific to the relevant SGID category to the its ArcGIS Online item to help people searching ArcGIS Online identify SGID data.
