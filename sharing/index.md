@@ -19,7 +19,7 @@ The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%
 
 Many of our most popular datasets—[roads]({% link sharing/core-data/index.md %}#road_centerlines), [parcels]({% link sharing/core-data/index.md %}#parcels), [address points]({% link sharing/core-data/index.md %}#address_points)—depend on the cities and counties, who send us updated data on a regular basis. We then merge them into unified, state-wide datasets available to anyone, free of charge. Most counties also participate in the [Land Information Record]({% link sharing/core-data/index.md %}#UtahLIRParcels) project, providing detailed parcel information that is critical to coherent and coordinated regional planning and analysis.
 
-Many state agencies have taken advantage of the SGID's broad audience to share important data, too. Many individuals, business, and municipalities use [natural hazard layers]({% link data/geoscience/index.html %}) from the Utah Geological Survey and [land ownership boundaries]({% link data/cadastre/land-ownership/index.html %}) from the Public Lands Policy Coordination Office for site selection and analysis.
+Many state agencies have taken advantage of the SGID to share important data with a broad audience. Numerous individuals, business, and municipalities use [natural hazard layers]({% link data/geoscience/index.html %}) from the Utah Geological Survey and [land ownership boundaries]({% link data/cadastre/land-ownership/index.html %}) from the State Institutional Trust Lands Administration for site selection and analysis.
 
 We offer a heartfelt **Thank You!** on behalf of ourselves and all our users to the communities, agencies, and individuals who have contributed to the SGID.
 
