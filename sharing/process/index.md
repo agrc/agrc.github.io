@@ -9,7 +9,7 @@ title: Submitting Data to the SGID
 categories: []
 ---
 
-Thank you for wanting to share your data with the SGID! We've put together a few processes to make sure your datasets are added to the right place. We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track where a dataset is at in the process and keep an open and transparent record of everything that happened.
+Thank you for wanting to share your data with the SGID! We've put together a few processes to make sure your datasets are added to the right place. We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress and keep an open and transparent record of everything that happened.
 
 If you're not sure which part of the SGID you should share your data with, check out our sharing [introduction]({% link sharing/index.md %}#join-the-party) for an overview.
 
@@ -30,7 +30,7 @@ If you're new to all this, please don't hesitate to {% include contact.html subj
 ### SGID Index
 {: .text-left}
 
-It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}#sgid-index-qualifications) data in the SGID Index. After you submit an issue in Porter using the `Add external data links to the SGID Index` template, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resolve any questions or problems, we'll add your dataset to the SGID Index and close the issue.
+It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}#sgid-index-qualifications) data in the SGID Index. After you [submit an issue](https://github.com/agrc/porter/issues/new/choose) in Porter using the `Add external data links to the SGID Index` template, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resolve any questions or problems, we'll add your dataset to the SGID Index and close the issue.
 
 ### Open Data
 {: .text-left}

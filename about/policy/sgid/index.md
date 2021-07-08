@@ -106,7 +106,7 @@ Datasets being removed from the SGID must follow these policies.
 
 Many items were added to the SGID before we adopted these policies and guidelines. We may evaluate them from time to time for removal.
 
-While not comprehensive, the following list includes the most common reasons for removeing datasets:
+While not comprehensive, the following list includes the most common reasons for removing datasets:
 
 - Datasets that cease to meet any of the qualifications above.
 - A dataset's schema has substantially changed.

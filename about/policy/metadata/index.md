@@ -10,7 +10,7 @@ title: Basic Metadata Requirements
 categories: []
 ---
 
-Effective metadata helps people understand the source of a dataset, how up-to-date it is, and any of its inherent restrictions or limitations. Listed below are the minimum metadata items that should be present in any SGID datasets. These correspond to the Esri [Item Description](https://desktop.arcgis.com/en/arcmap/latest/manage-data/metadata/metadata-standards-and-styles.htm#ESRI_SECTION1_29222DC149544E89A4147541A4ACAF86) metadata style and the metadata displayed on an item's ArcGIS Online page.
+Effective metadata helps people understand the source of a dataset, how up-to-date it is, and any of its inherent restrictions or limitations. Listed below are the minimum metadata items that should be present in any SGID datasets. These correspond to the Esri [Item Description](https://pro.arcgis.com/en/pro-app/latest/help/metadata/view-and-edit-metadata.htm) metadata style and the metadata displayed on an item's ArcGIS Online page.
 ## Basic SGID Metadata
 
 #### Title

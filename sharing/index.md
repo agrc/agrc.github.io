@@ -15,7 +15,7 @@ categories: []
 
 ## The Joys of Sharing
 
-The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%}) is one of the premier statewide GIS databases in the country, providing clean and consistent authoritative data across every geography in the state. People have been turning to the SGID for nearly 30 years to support their personal, commercial, academic, and government projects.
+The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%}) is one of the premier statewide GIS databases in the country, providing clean and consistent authoritative data across every geography in the state. People have been turning to the SGID for nearly [30 years]({% link _posts/2019-06-11-sgid-then-and-now.md%}) to support their personal, commercial, academic, and government projects.
 
 ![GIS Data Samples]({% link images/DataRequest.png %}){: style="width:50%; margin-left:auto; margin-right:auto; display:block" loading="lazy" }
 
