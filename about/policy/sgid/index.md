@@ -116,6 +116,8 @@ While not comprehensive, the following list includes the most common reasons for
 - A more authoritative source for the dataset exists elsewhere.
 - A link has been abandoned and no longer returns a proper web page.
 
+In addition, we may remove any ArcGIS Online items from Open Data that aren't shared through the [sharing process]({% link sharing/process/index.md %}#open-data). We may remove items from the staging group if the submitter fails to provide adequate information according to the guidelines in the sharing process.
+
 ### "Static" Datasets
 {: .text-left}
 

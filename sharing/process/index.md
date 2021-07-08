@@ -45,7 +45,7 @@ It is critical to provide complete metadata so that Open Data stays clean and ea
 
 ![An annotated Open Data item]({% link images/od_card_anno.png %}){: .flex .flex--center loading="lazy" }
 
-##### "Source"
+##### A Note about Open Data "Sources"
 
 > You should only have one "Source" for all the datasets coming from your organization. Esri explains where this value comes from [in this FAQ](https://doc.arcgis.com/en/hub/get-started/frequently-asked-questions.htm#GUID-9843B713-46D2-4938-A961-EC0CD81AE410). Basically, it first searches the ArcGIS Online item's metadata for an organization name. If it doesn't find anything there, it falls back to your ArcGIS organization name.
 >
@@ -56,6 +56,14 @@ It is critical to provide complete metadata so that Open Data stays clean and ea
 >![Organization name sources in ArcGIS Online metadata]({% link images/od_agol_md.png %}){: .flex .flex--center .outline loading="lazy" }
 >
 > Depending on how you upload or overwrite your ArcGIS Online data, it may also overwrite the item's metadata with info from the source feature class metadata. We suggest you make any changes in both the feature class and ArcGIS Online metadata to avoid problems in the future. In the FGDC CSDGM style, the `Resource > Citation > Contact > Organization Name` field is in `Overview > Citation Contacts`. The `Resource > Contact > Organization Name` field is in `Resource > Points of Contact`.
+{: style="
+    font-size: 100%;
+    font-style: normal;
+    color: #111;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 2px solid #333;
+    "}
 
 ### Open SGID and ArcGIS Online
 {: .text-left}
@@ -68,4 +76,4 @@ Once we get your data, we will run [Sweeper](https://github.com/agrc/sweeper) on
 
 Nothing is worse than outdated data. If you can't find any data, you know that you may not know what's going on. But, if you find outdated data, you may not know that you are acting on bad data. Consequently, once your dataset has been accepted into the Open SGID, it's important you send any data updates to us. We'll work with you to identify the best way to feed updates into the Open SGID as part of the submission process.
 
-As part of the Open SGID process, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. We will add a thumbnail that includes both the AGRC logo and the relevant SGID category icon to the ArcGIS Online item to help people searching ArcGIS Online identify SGID data.
+As part of the Open SGID process, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data (unless you have already shared it on ArcGIS Online yourself). We will add a thumbnail that includes both the AGRC logo and the relevant SGID category icon to the ArcGIS Online item to help people searching ArcGIS Online identify SGID data.
