@@ -74,7 +74,7 @@ These criteria apply to ArcGIS Online items shared through the [SGID Open Data s
   - The **tags** should include the source entity's name and any other relevant words not found in the title (please refer to Esri's [post about using tags effectively](https://www.esri.com/arcgis-blog/products/arcgis-online/data-management/using-tags-effectively/) for more information).
 - Datasets should enable the "Allow others to export data to different formats" option in their ArcGIS Online settings to enable end users to **download** the dataset as a file geodatabase.
 
-We strongly encourage dataset owners to follow these ArcGIS Online-specific guidelines, even though the SGID Open Data Hub does not use them directly:
+We strongly encourage dataset owners to follow these ArcGIS Online-specific guidelines, even though the SGID Open Data site does not use them directly:
 
 - The items' **thumbnails** appear when a user searches for the dataset on ArcGIS Online or in ArcGIS Pro. A [branded thumbnail](https://www.esri.com/arcgis-blog/products/arcgis-online/data-management/put-your-best-thumbnail-forward/) tells users that this is an authoritative dataset. For example, we use thumbnails that include the category logo for all the SGID data we share in ArcGIS Online.
 - Mark the item as **authoritative** in ArcGIS Online. This helps users decide which dataset to use when their search in ArcGIS Online returns several similar results.
@@ -134,7 +134,7 @@ We anticipate some SGID datasets historically made available through the SDE con
 ### "Shelved" Datasets
 {: .text-left}
 
-Over time, we will remove datasets from the Open SGID that are no longer current but continue to have historical value (e.g., Census/ACS data or previous tax district boundaries). Their associated ArcGIS Online items will be tagged as `shelved` and placed in the public [AGRC Shelf](http://utah.maps.arcgis.com/home/group.html?id=8765687b7b0545668fff02d1b750f7a9) ArcGIS Online group for future reference. Shelved datasets are not included in the SGID Open Data Hub.
+Over time, we will remove datasets from the Open SGID that are no longer current but continue to have historical value (e.g., Census/ACS data or previous tax district boundaries). Their associated ArcGIS Online items will be tagged as `shelved` and placed in the public [AGRC Shelf](http://utah.maps.arcgis.com/home/group.html?id=8765687b7b0545668fff02d1b750f7a9) ArcGIS Online group for future reference. Shelved datasets are not included in the SGID Open Data site.
 
 ---
 

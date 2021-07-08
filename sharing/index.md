@@ -13,13 +13,13 @@ categories: []
 
 [Sharing with the SGID Index]({% link sharing/sgid-index/index.md %}) | [Sharing with SGID Open Data]({% link sharing/open-data/index.md %}) | [Sharing with Open SGID]({% link sharing/open-sgid/index.md %}) | [Basic Metadata Creation Process]({% link sharing/metadata/index.md %}) | [Sharing Highlights]({% link sharing/examples/index.md %})
 
-## Sharing Makes the SGID
+## The SGID: A Community Effort
 
 The Utah [State Geographic Information Database (SGID)]({% link sgid/index.html%}) is one of the premier statewide GIS data resources in the country, providing clean, consistent, and authoritative data across every geography in the state. People have been turning to the SGID for nearly [30 years]({% link _posts/2019-06-11-sgid-then-and-now.md%}) to support their personal, commercial, academic, and government projects.
 
-Nearly all the data in the SGID that make it such a valuable resource come from cities, counties, and other State agencies. We offer a heartfelt **Thank You!** on behalf of both UGRC and all the users of the SGID to everyone who has contributed to the SGID.
+Nearly all the data in the SGID that make it such a valuable resource come from cities, counties, and other State agencies. We offer a heartfelt **Thank You!** on behalf of both UGRC and all the users of the SGID to everyone who has contributed data.
 
-We hope you'll follow the [example]({% link sharing/examples/index.md %}) of our current contributors and consider sharing your data with a broad audience through the SGID. We have three separate "tracks" to follow based on where your data fit best: the **SGID Index**, the **SGID Open Data Hub**, or the **Open SGID**. There's a separate process for contributing to an existing SGID dataset.
+We hope you'll follow the [example]({% link sharing/examples/index.md %}) of our current contributors and consider sharing your data with a broad audience through the SGID. We have three separate "tracks" to follow based on where your data fit best: the **SGID Index**, the **SGID Open Data Site**, or the **Open SGID**. There's also a separate process for contributing to or updating an existing SGID dataset.
 
 ![SGID Sharing Locations]({% link images/SGIDSharing.png %}){: style="margin-left:auto; margin-right:auto; display:block; border: 1px solid" loading="lazy" }
 _Note: This data flow works for 95% of datasets, but exceptions can and do exist._
@@ -32,12 +32,12 @@ The simplest way to share your data is by adding links for existing, qualifying 
 
 **[Click here]({% link sharing/sgid-index/index.md %}) to start sharing your hosted data with the SGID Index.**
 
-## SGID Open Data Hub
+## SGID Open Data Site
 {: .text-left}
 
-We use Esri's open data offering to maintain [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) ([opendata.gis.utah.gov](https://opendata.gis.utah.gov)), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to use your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in the SGID Open Data Hub that meet our [qualifications]({% link about/policy/sgid/index.md %}#sgid-open-data-qualifications).
+We use Esri's open data offering to maintain [SGID Open Data]({% link sgid/index.html %}#sgid-open-data-site) ([opendata.gis.utah.gov](https://opendata.gis.utah.gov)), a central list of ArcGIS Online and ArcGIS Enterprise Portal services. This is a great way to use your existing ArcGIS Online or Enterprise infrastructure to share your data with little additional work. We are happy to include any datasets in the SGID Open Data site that meet our [qualifications]({% link about/policy/sgid/index.md %}#sgid-open-data-qualifications).
 
-**[Click here]({% link sharing/open-data/index.md %}) to start sharing your AGOL items with the SGID Open Data Hub.**
+**[Click here]({% link sharing/open-data/index.md %}) to start sharing your AGOL items with the SGID Open Data site.**
 
 ## Open SGID
 {: .text-left}
