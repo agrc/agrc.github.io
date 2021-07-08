@@ -14,9 +14,9 @@ If you would like to share data with the [Open SGID]({% link sgid/index.html %}#
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 
-If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue.
+<!-- If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue. -->
 
-If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [UGRC team]({% link about/contact/index.html %}).
+If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}; or you can contact anyone else on the [UGRC team]({% link about/contact/index.html %}).
 
 ### Step 1: 📋 Qualifications (You)
 {: .text-left}
@@ -31,7 +31,7 @@ First, make sure your dataset meets the SGID qualifications:
 
 Before submitting your data, make sure it's got a stable schema and is ready for public consumption. Make sure the metadata meets our [minimum standards]({% link about/policy/metadata/index.md %}). If you need help with metadata, check out our [basic metadata creation process]({% link sharing/metadata/index.md %}).
 
-Start thinking about the future—how often will this dataset be updated? How will you send those updates to us? Sometimes, outdated data is worse than no data at all. If a user can't find anything, they still know what they don't know. But if they find outdated data without realizing it, they may not know that they are acting on bad data.
+Start thinking about the future—how often will this dataset be updated? How will you send those updates to us? Sometimes, old data is worse than no data at all. If a user can't find anything, they still know what they don't know. But if they find outdated data without realizing it, they may not know that they are acting on bad data.
 
 ### Step 3: 📂 Open an Issue (You)
 {: .text-left}
@@ -60,7 +60,7 @@ We run [Sweeper](https://github.com/agrc/sweeper) on all Open SGID datasets to f
 
 Once we've worked together to resolve any questions or problems, we'll add it to the Open SGID.
 
-If you sent the data to us as a shpefile or GDB, or as a private or temporary feature service, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. As part of this process, we will add a thumbnail that includes both the UGRC logo and the relevant SGID category icon to help people searching ArcGIS Online identify SGID data:
+If you sent the data to us as a shapefile or GDB, or as a private or temporary feature service, we will also upload your dataset to our own ArcGIS Online organization as a hosted feature service and share it publicly through Open Data. As part of this process, we will add a thumbnail that includes both the UGRC logo and the relevant SGID category icon to help people searching ArcGIS Online identify SGID data:
 
 ![Example ArcGIS Online thumbnail for SGID items]({% link images/agol_location_group.png %}){: .flex .flex--center .outline loading="lazy" }
 

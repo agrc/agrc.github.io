@@ -14,9 +14,9 @@ It's quite simple to ~~[deal with a banana fiend](https://youtu.be/F4PZXuk3TsM?t
 
 We use [issues](https://guides.github.com/features/issues/) in our [Porter](https://github.com/agrc/porter/issues) repository on GitHub to track a dataset's progress in the submission process and to keep an open and transparent record of everything that happened.
 
-If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue.
+<!-- If you've never used GitHub issues before, click here to watch a short tutorial (TBA) about creating an issue. -->
 
-If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}, or anyone else on the [UGRC team]({% link about/contact/index.html %}).
+If you've still got questions after reading this, {% include contact.html subject="SGID Data Additions" contact=site.data.contacts.sgid text='reach out to ' hide-punctuation=true %}; or you can contact anyone else on the [UGRC team]({% link about/contact/index.html %}).
 
 ### Step 1: 📋 Qualifications (You)
 {: .text-left}
