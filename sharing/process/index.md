@@ -30,7 +30,7 @@ If you're new to all this, please don't hesitate to {% include contact.html subj
 ### SGID Index
 {: .text-left}
 
-It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}) data in the SGID Index. After you submit an issue in Porter using the "Add data to the SGID Index template, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resolve any questions or problems, we'll add your dataset to the SGID Index and close the issue.
+It's quite simple to list [qualifying]({% link about/policy/sgid/index.md %}) data in the SGID Index. After you submit an issue in Porter using the `Add data to the SGID Index template`, we will review your submission against the qualifications and reach out with any questions. Once we've worked together to resolve any questions or problems, we'll add your dataset to the SGID Index and close the issue.
 
 ### Open Data
 {: .text-left}
@@ -48,7 +48,7 @@ The Open SGID is the latest evolution of the traditional "SGID as a single geosp
 
 After opening an issue with the `Add data to the Open SGID` template, you'll need to reach out and arrange the best way to transfer your data to us for the first review. We can download data from a cloud storage solution (Google Drive, Dropbox, etc), pull it in from an ArcGIS Online Map or Feature Service, set up an FTP share for you to upload it to, or just have you email us a zipped shapefile or GDB.
 
-Once we get your data, we will run [Sweeper](https://github.com/agrc/sweeper) on it to identify and fix any geometry errors that could cause problems with the database (Postgres complains about some things that Esri lets slide). We'll share the results of this with you as a courtesy; while you're under no obligation to change your source data, doing so will help streamline any future data updates.
+Once we get your data, we will run [Sweeper](https://github.com/agrc/sweeper) on it to identify and fix empty and duplicate geometries and rows and to double check the metadata. We'll share the results of this with you as a courtesy—fixing it at the source will help streamline any future data updates, but we'll happily add it to the Open SGID after fixing it on our end with Sweeper.
 
 Nothing is worse than outdated data. If you can't find any data, you know that you may not know what's going on. But, if you find outdated data, you may not know that you are acting on bad data. Consequently, once your dataset has been accepted into the Open SGID, it's important you send any data updates to us. We'll work with you to identify the best way to feed updates into the Open SGID as part of the submission process.
 
