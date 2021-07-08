@@ -10,61 +10,53 @@ title: Basic Metadata Requirements
 categories: []
 ---
 
-
-
-Let's take a closer look at the basic elements of SGID metadata. We like to think of these as our minimum requirements.
-
-### Basic SGID Metadata
-{: .text-left}
+Effective metadata helps people understand the source of a dataset, how up-to-date it is, and any of its inherent restrictions or limitations. Listed below are the minimum metadata items that should be present in any SGID datasets. These correspond to the Esri [Item Description](https://desktop.arcgis.com/en/arcmap/latest/manage-data/metadata/metadata-standards-and-styles.htm#ESRI_SECTION1_29222DC149544E89A4147541A4ACAF86) metadata style and the metadata displayed on an item's ArcGIS Online page.
+## Basic SGID Metadata
 
 #### Title
 {: .text-left}
 
 The title should match the dataset name. If it's a statewide dataset, the title should begin with the word "Utah".
 
-`example: Utah County Boundaries`
+Example: 1Utah County Boundaries`
 
 #### Tags
 {: .text-left}
 
-Tags are included in data searches, so at minimum, each SGID dataset should include the stewarding agency (ie: UGRC), SGID, and the appropriate ISO category tag. We also recommend adding any additional, relevant tags that might help with data discoverability. However, there is no need to include words that are contained in the layer's title (these will be omitted).
+Tags are used by ArcGIS Online in its search algorithms and can be used in Open Data to group data. At a minimum, each SGID dataset's tags should include the stewarding agency (ie: UGRC), "SGID", and the appropriate category name. We also recommend adding any additional, relevant tags that might help with data discoverability. However, there is no need to include words that are contained in the layer's title (these will be omitted).
 
 All words in tags should be title-cased except for articles (“of”, “the”, “and”, etc.) or abbreviations. Each tag should be separated by a comma. Please refer to [Using tags effectively](https://www.esri.com/arcgis-blog/products/arcgis-online/data-management/using-tags-effectively/) for more ideas and information.
 
-`example: UGRC, SGID, Recreation, Paths, Biking, Hiking, Horseback Riding`
+Example: `UGRC, SGID, Recreation, Paths, Biking, Hiking, Horseback Riding`
 
 #### Summary
 {: .text-left}
 
-The summary should summarize the description in approximately 2 to 3 sentences.
+The summary should _briefly_ explain the dataset in under 250 characters (an ArcGIS Online limitation). It is primarily used when reviewing ArcGIS Online search results. The summary may end up being very similar to the dataset name for some datasets.
 
-The summary should address the questions presented above in the [summarize your data](#summarize-your-data) section.
+Example: `Utah public library and bookmobile locations`
 
 #### Description
 {: .text-left}
 
-The Description is a more in-depth version of the summary and it should stand on its own. The description should expand on the summary. This is important, particularly, in the event that the summary is missing in the metadata (which is currently the case with [Open Data](https://opendata.gis.utah.gov/) datasets).
+The description is a more in-depth version of the summary and should stand on its own. It is a great place for details on the source of the data, how frequently it's updated, its usability at certain scales, or any common misconceptions. A good description is also important because it's the main info displayed in [Open Data](https://opendata.gis.utah.gov/) (the summary is not shown).
 
-The first line of the description should be a date, indicating the last update.
+The first line of the description should be be the date the dataset was last updated so people have a clear and consistent place to see how fresh or stale it is.
 
-This section should also contain a link to the corresponding [gis.utah.gov data page]({% link data/index.html %})
-
-Additionally, the description should address the questions presented above in the [describe your data](#describe-your-data) section.
+For datasets hosted by AGRC, this section should also contain a link to the corresponding [gis.utah.gov data page]({% link data/index.html %}).
 
 #### Credits (as in the source of the data)
 {: .text-left}
 
-This should cover who created the dataset and how you can get in contact with them.
+The credits should clearly state who created the dataset and how you can get in contact with them.
 
-The credits should address the questions presented above in the [establish contact info](#establish-contact-info) section.
+Example: `AGRC, UDOT`
 
-#### Use Limitations
+#### Use Limitations/Terms of Use
 {: .text-left}
 
-This section covers limitation and licensing on the data.
+This section includes both usage limitations (any constraints on where or how the dataset can be used, including disclaimers and attribution rules) and the intellectual property license (if any) associated with the dataset (like Creative Commons).
 
-The language presented here is for reference only and is populated automatically via our [Sweeper](https://github.com/agrc/sweeper) project.
+We use [Sweeper](https://github.com/agrc/sweeper) to automatically populate our hosted datasets with our standard [disclaimer]({% link about/policy/license-disclaimer/index.md %}#disclaimer) and [license]({% link about/policy/license-disclaimer/index.md %}#license).
 
->The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user.
->[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/){: loading="lazy" }
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Open Data will try to find references to the common licenses and will link to the appropriate license. Otherwise, it just lists "Custom License" and displays the item's Terms of Use text.
