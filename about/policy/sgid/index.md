@@ -10,17 +10,19 @@ categories: []
 date: 2020-01-14 17:00
 ---
 
-### A Brief Word on Language
+The policies on this page govern the way we interact with data in the [SGID]({% link sgid/index.html %}). Many of these policies also apply to external data being submitted to the SGID.
+
+#### A Brief Word on Language
 {: .text-left}
 
-We use the following terms intentionally:
+We use the following terms intentionally on this page:
 
 - **Must**: This is as close to a hard and fast rule as we get (short of a legislative "thou shalt").
 - **Should**: We generally follow this rule, but we allow for exceptions at our discretion.
 - **May**: We can apply this rule, but our policies don't necessarily require or encourage us to act.
 - **Will**: We will take the prescribed action if the specified conditions occur.
 
-## Qualifying Datasets
+## SGID Dataset Qualifications
 
 Datasets added to the SGID must meet the following criteria. We may remove any existing datasets that do not meet these criteria.  All additions to the SGID should follow the [sharing process]({% link sharing/process/index.md %}) and be tracked through [Porter](https://github.com/agrc/porter).
 
@@ -74,12 +76,13 @@ We strongly encourage dataset owners to follow these ArcGIS Online-specific guid
 
 Datasets being removed from the SGID must follow these policies.
 
-### Removal Policies
+### General Removal Policies
+{: .text-left}
 
 - We reserve the right to remove any dataset at any time.
 - Removals should be tracked in [Porter](https://github.com/agrc/porter).
 - The steward should give users a heads up at least two weeks prior to removal whenever possible.
-  - AGRC should post removal and deprecation notices on the @maputah Twitter account.
+  - AGRC should post removal and deprecation notices on the [@MapUtah](https://twitter.com/maputah) Twitter account.
 - Stewards of ArcGIS Online services should perform a brownout by marking the data as `Deprecated` in the item's settings and including "deprecated" in the item's title. The service should be unshared publicly for two weeks before being deleted altogether.
 
 ### Reasons for Removal
@@ -131,12 +134,18 @@ Any coded-value domain codes must match their values (for example, `"Interstate 
 ### Editing Policies
 {: .text-left}
 
-No edits will be made to the internal SGID from 7:00PM to 10:00AM MST to allow for automated scripts to push accurate updates to ArcGIS Online and ArcGIS Server. AGRC will ensure that data is production-ready before the editing window ends.
+No edits or updates should be made to the internal geodatabase from 7:00PM to 10:00AM MST to allow automated scripts to push dataset updates to ArcGIS Online and the Open SGID. AGRC should ensure that data is production-ready before the editing window ends.
 
-All database updates will be done during the editing window using [Swapper](https://github.com/agrc/swapper) or some other automated process to reduce the amount of time with incomplete data.
+Whenever possible, internal geodatabase edits and updates should be done using auotmated tools that move data from a secondary workspace into the internal geodatabase to reduce the time of incomplete data in the internal geodatabase. (Is this neccessary now that we're the only ones hitting internal SGID?)
 
-All data updates being pushed into the SGID will have removed empty geometries and duplicate records with [Sweeper](https://github.com/agrc/sweeper) or another automated process.
+All data updates being pushed into the SGID should be run through [Sweeper](https://github.com/agrc/sweeper) or another automated process to review and fix common data and metadata problems.
 
-All edits made to the internal SGID will be captured in the `Last update date` in the metadata, in the [Data Stewardship spreadsheet](https://docs.google.com/spreadsheets/d/11ASS7LnxgpnD0jN4utzklREgMf1pcvYjcXcIcESHweQ/edit#gid=0), and as an update on the AGRC website data page.
+Whenever a dataset is updated, the `Last update date` must be updated in the following places:
 
-If making a schema change, please consider updating any domain descriptions that do not match the domain value. See this [document](https://docs.google.com/document/d/12bdtmtv-ZVF9g-lFshbobx8DbKX9LfbL44HawLjFTVw/edit?usp=sharing) to learn more about this effort.
+- The [Data Stewardship spreadsheet](https://docs.google.com/spreadsheets/d/11ASS7LnxgpnD0jN4utzklREgMf1pcvYjcXcIcESHweQ/edit#gid=0)
+- The dataset's data page
+- The first line of the metadata's `Description` field
+
+AGRC should implement a unified metadata database and associated automated tools to capture the last update date in a single location.
+
+If making a schema change, you should update any coded-value domain descriptions that do not match the domain value. See this [document](https://docs.google.com/document/d/12bdtmtv-ZVF9g-lFshbobx8DbKX9LfbL44HawLjFTVw/edit?usp=sharing) for more on this effort.
