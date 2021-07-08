@@ -9,9 +9,9 @@ title: Sharing GIS Data
 categories: []
 ---
 
-#### Quick Links
+#### In This Section
 
-[Submitting Data to the SGID]({% link sharing/process/index.md %}) — [Basic Metadata Creation Process]({% link sharing/metadata/index.md %}) — [AGRC Sharing Policies]({% link about/policy/index.md %})
+[Sharing with the SGID Index]({% link sharing/sgid-index/index.md %}) | [Sharing with SGID Open Data]({% link sharing/open-data/index.md %}) | [Sharing with Open SGID]({% link sharing/open-sgid/index.md %}) | [Basic Metadata Creation Process]({% link sharing/metadata/index.md %})
 
 ## Sharing Makes the SGID
 
@@ -40,7 +40,7 @@ We use Esri's open data offering to maintain [SGID Open Data]({% link sgid/index
 ## Open SGID
 {: .text-left}
 
-The [Open SGID]({% link sgid/index.html %}#open-sgid) is a curated, publicly-accesible database of statewide GIS layers—the latest evolution of the traditional "SGID as a single geospatial database" model. We are excited to have this connection available to everyone once again.
+The [Open SGID]({% link sgid/index.html %}#open-sgid) is a curated, publicly-accessible database of statewide GIS layers—the latest evolution of the traditional "SGID as a single geospatial database" model. We are excited to have this connection available to everyone once again.
 
 If you have a statewide dataset but don't have the ability to host or share it yourself, we may host it in the Open SGID if it meets our [qualifications]({% link about/policy/sgid/index.md %}#open-sgid-qualifications). We also share most Open SGID layers through [opendata.gis.utah.gov](https://opendata.gis.utah.gov) (by first uploading it as a feature service in our ArcGIS Online [organization](https://utah.maps.arcgis.com)).
 
@@ -53,4 +53,4 @@ Maintaining data in the Open SGID requires the most work, both on the front end 
 
 If you are the local authoritative source for data contained in an existing dataset, we'd love to work with you to pull your latest data into the SGID. Many of our [most popular datasets]({% link sharing/examples/index.md%}) are the result of collaboration with cities and counties. We will evaluate independent, crowd-sourced or commercial contributions on a case-by-case basis to make sure they are authoritative and not substantially restricted.
 
-Click here to start contributing to an existing SGID Dataset.
+To contribute to an existing dataset, please use the contact info listed on the dataset's [data page]({% link data/index.html %}).
