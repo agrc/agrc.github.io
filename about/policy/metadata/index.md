@@ -18,7 +18,7 @@ Effective metadata helps people understand the source of a dataset, how up-to-da
 
 The title should match the dataset name. If it's a statewide dataset, the title should begin with the word "Utah".
 
-Example: 1Utah County Boundaries`
+Example: `Utah County Boundaries`
 
 #### Tags
 {: .text-left}
