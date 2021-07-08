@@ -5,7 +5,7 @@ author:
 tags:
   - metadata
   - sgid
-date: 2020-07-09 09:33:34 -0600
+date: 2020-01-13 17:00:00
 title: Basic Metadata Creation Process
 categories: []
 ---

@@ -4,7 +4,7 @@ tags:
 author:
   display_name: AGRC Office
   email: agrc@utah.gov
-date: 2017-01-26 23:40:06
+date: 2020-01-13 17:00:00
 title: Sharing GIS Data
 categories: []
 ---
