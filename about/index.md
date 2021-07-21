@@ -27,7 +27,7 @@ date: 2011-06-30 23:18:14 -0600
 
 The Utah Geospatial Resource Center (UGRC) is the State of Utah’s map technology coordination office. UGRC staff ([directory/contacts]({% link about/contact/index.html %})) have knowledge of and experience with geographic information system (GIS) desktop software, hosted map- and web-services, mapping data resources, and GIS professionals and their activities around the state. Since 1984, we have been [encouraging and facilitating](https://storymaps.arcgis.com/stories/8be2e6de2abf442eb72f5faa8a32dd2b) the effective use of geospatial information and technology for Utah. Read more about how we aim to continue this mission in our [strategic plan](https://drive.google.com/a/utah.gov/uc?id=1fMCCpjSbjKrHBIPuMiagakcmBBD61F9d&export=download), last updated in 2020.
 
-We are located on the 5th floor of the State Office building, directly north of the Capitol ([directions and parking]({% link about/visiting-agrc/index.html %})). UGRC and the Utah CIO’s office compose the Integrated Technologies division within the Department of Technology Services.
+We are located on the 4th floor of the Taylorsville State Office building, 4315 South 2700 west ([directions and parking]({% link about/visiting-agrc/index.html %})). UGRC and the Utah CIO’s office compose the Integrated Technologies division within the Department of Technology Services.
 
 [![UGRC staff photo](./AGRC_Staff_2019_small.png){: .outline}](./AGRC_Staff_2019.png)
 {: .pull-right .pad-left loading="lazy" }
